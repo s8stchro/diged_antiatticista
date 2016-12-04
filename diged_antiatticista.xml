@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+   <title>Title</title>
+   </titleStmt>
+   <publicationStmt>
+   <p>Publication Information</p>
+   </publicationStmt>
+   <sourceDesc>
+   <p>Information about the source</p>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="part" n="A">
+   <head>Α</head>
+   <entryFree n="1"><form type="phrase">ἀπὸ στόματος:</form> <bibl><persName><name>Ξενοφῶν</name></persName> <w>ἐν</w> <w>τῇ</w> <title>Ἀναβάσει</title></bibl>, <bibl><persName><name>Πλάτων</name></persName> <title>Θεαιτήτῳ</title></bibl>.</entryFree>
+   <entryFree n="2"><form type="simple">Ἀστή</form>: <sense>πᾶσα ἡ ἐξ ἡστινοσοῦν πόλεως, οὐ μόνον ἐξ Ἀθηνῶν</sense>.</entryFree>
+   <entryFree n="3"><form type="simle">Ἀθηναίαν</form>: οὐκ Ἀττικήν.</entryFree>
+   <entryFree n="4"><form type="phrase">Αὐτὸς αὑτόν</form>: <sense>ἀντὶ τοῦ ἐμαυτόν</sense>.</entryFree>
+   <entryFree n="5"><form type="simple">Αὑτοῦ</form>: <sense>ἀντὶ τοῦ σαυτοῦ</sense>.</entryFree>
+   <entryFree n="6"><form type="simple">Αὑτῷ</form>: <sense>ἀντὶ τοῦ ἐμαυτῷ</sense>.</entryFree>
+   <entryFree n="7"><form type="simple">Ἀκράχολος</form>: <bibl><author><persName><name>Πλάτων</name></persName></author> <biblScope unit="book" n="2">δευτέρῳ</biblScope> <title>Πολιτείας</title></bibl>.</entryFree>
+   <entryFree n="8"><form type="simple">Ἀνέπεσεν</form>: <sense>ἀντὶ τοῦ ἀνεκλίθη</sense>.</entryFree>
+   <entryFree n="9"><form type="phrase">Ἀεί ποτε</form>: <bibl><author><persName><name>Θουκυδίδης</name></persName></author> <biblScope unit="book" n="4">τετάρτῳ</biblScope></bibl>. </entryFree>
+   <entryFree n="10"><form type="simple">Ἀποκριθῆναι</form>: οὐκ ἀποκρίνασθαι.</entryFree>
+   <entryFree n="11"><form type="phrase">Αἰσχυντηλὸς εἶ</form>: <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Γοργίᾳ</title></bibl>.</entryFree>
+   <entryFree n="12"><form type="phrase">Ἀπὸ πρώτης</form>: <sense>ἀντὶ τοῦ πρῶτον</sense>. </entryFree>
+   <entryFree n="13"><form type="simple">Ἄξιον</form>: <sense>ἀντὶ τοῦ εὔωνον</sense>. <bibl><author><persName><name>Λυσίας</name></persName></author> <w>ἐν</w> <w>τῷ</w> <title>κατὰ τῶν σιτοπωλῶν</title></bibl>.</entryFree>
+   <entryFree n="14"><form type="simple">Ἀξία</form>: <sense>ἀντὶ τοῦ ἀξίωμα</sense>. <bibl><author><persName><name>Δημοσθένης</name></persName></author> ἐν τῇ <title><rs>ἐπιστολῇ, ἧς ἀρχὴ Περὶ μὲν τῶν κατ’ ἐμαυτόν</rs></title></bibl>.</entryFree>
+   <entryFree n="15"><form type="simple">Ἀκούειν</form>: <sense>ἀντὶ τοῦ πειθαρχεῖν</sense>. <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>κατὰ Λεπτίνου</title></bibl>.</entryFree>
+   <entryFree n="16"><form type="phrase">Ἀκούει καλῶς</form>: <sense>ἀντὶ τοῦ εὐφημεῖται</sense>. <bibl><author><persName><name>Ἡρόδοτος</name></persName></author> <biblScope unit="book" n="3">τρίτῳ</biblScope></bibl>.</entryFree>
+   <entryFree n="17"><form type="inflected">Ἀκροᾶσαι σύ</form>: <sense>ἀντὶ τοῦ ἀκροᾷ ἢ ἀκούεις</sense>.</entryFree>
+   <entryFree n="18"><form type="simple">Αἱρετίζειν</form>: <sense>ἀντὶ τοῦ αἱρεῖσθαι</sense>.</entryFree>
+   <entryFree n="19"><form type="simple">Ἄκληρος</form>: <sense>ἀντὶ τοῦ ἀτυχής</sense>.</entryFree>
+   <entryFree n="20"><form type="simple">Ἀκληρίαν</form>: <bibl><author><persName><name>Ἀντιφάνης</name></persName></author> <title>Ἀδώνιδι</title></bibl>. <bibl><author><persName><rs>ὁ αὐτὸς</rs></persName></author></bibl> <form type="simple">εὐκλήρωμα</form> <sense>ἀντὶ τοῦ κατόρθωμα</sense>.</entryFree>
+   <entryFree n="21"><form type="simple">Ἀκμήν</form>: <sense>ἀντὶ τοῦ ἔτι</sense>. <bibl><author><persName><name>Ὑπερείδης</name></persName></author> <title>ὑπὲρ Κρατίνου</title></bibl>.</entryFree>
+   <entryFree n="22"><form type="simple">Ἀνταποδοῦναι</form>, <form type="simple">ἀνταπαιτῆσαι</form>, <form type="simple">ἀνταμύνασθαι</form>: <bibl><author><persName><name>Ἡρόδοτος</name></persName></author> <biblScope unit="book" n="1">πρώτῳ</biblScope></bibl>.</entryFree>
+   <entryFree n="23"><form type="simple">Ἀνταπολαμβάνειν</form>: <bibl><author><persName><name>Δημοσθένης</name></persName></author> <w>ἐν</w> <w>τῷ</w> <title>κατὰ Λεπτίνου</title></bibl>.</entryFree>
+   <entryFree n="24"><form type="simple">Ἀντιλογῆσαι</form>: <bibl><author><persName><name>Ἀριστοφάνης</name></persName></author> <title>Νεφέλαις</title></bibl>.</entryFree>
+   <entryFree n="25"><form type="simple">Ἀστοργία</form>, <form type="simple">φιλοστοργία</form>, <form type="simple">στοργή</form>: <bibl><author><persName><name>Ἀντιφῶν</name></persName></author> <w>ἐν</w> <biblScope unit="book" n="2">δευτέρῳ</biblScope> <title>περὶ τῆς ῥητορικῆς τέχνης</title></bibl>.</entryFree>
+   <entryFree n="26"><form type="simple">Ἀγοράσαι</form>: <sense>ἀντὶ τοῦ ὠνήσασθαι, οὐκ ἐπὶ τοῦ ἐν ἀγορᾷ διατρίβειν</sense>. <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>κατὰ Ἀριστογείτονος</title></bibl>.</entryFree>
+   <entryFree n="27"><form type="simple">Ἀνελευθερία</form>: <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Πολιτείας</title> <biblScope unit="book" n="2">δευτέρῳ</biblScope></bibl>.</entryFree>
+   <entryFree n="28"><form type="simple">Ἀναπειρίαν</form>: <bibl><author><persName><name>Ἀριστοφάνης</name></persName></author> <title>Πλούτῳ</title></bibl>.</entryFree>
+   <entryFree n="29"><form type="simple">Ἀμελετησία</form>: <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Θεαιτήτῳ</title></bibl>.</entryFree>
+   <entryFree n="30"><form type="simple">Ἀχρηστίαν</form>: <bibl><author><persName><name>Πλάτων</name></persName></author> <biblScope unit="bool" n="1">πρώτῳ</biblScope> <title>Πολιτείας</title></bibl>.</entryFree>
+   <entryFree n="31"><form>Ἀγαθουργίαν</form>: <bibl><author><persName><name>Ἡρόδοτος</name></persName></author> <biblScope unit="book" n="1">πρώτῳ</biblScope></bibl>.</entryFree>
+   <entryFree n="32"><form>Ἀσυνεσία</form>: <bibl><author><persName><name>Θουκυδίδης</name></persName></author> <biblScope unit="book" n="3">τρίτῳ</biblScope></bibl>.</entryFree>
+   <entryFree n="33"><form>Ἀντιβολία</form>: <bibl><author><persName><name>Θουκυδίδης</name></persName></author> <biblScope unit="book" n="7">ἑβδόμῳ</biblScope>.</bibl> </entryFree>
+   <entryFree n="34"><form>Ἀθεραπευσία</form>: <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Πολιτείας</title> <biblScope unit="book" n="3">τρίτῳ</biblScope></bibl>. </entryFree>
+   <entryFree n="35"><form>Ἀλιμενία</form>: <bibl><author><persName><name>Ὑπερείδης</name></persName></author> <w>ἐν</w> <w>τῷ</w> <title>περὶ τοῦ Πολύευκτον στρατηγεῖν</title></bibl>. </entryFree>
+   <entryFree n="36"><form>Ἀπειθαρχία</form>: <bibl><author><persName><name>Ἀντιφῶν</name></persName></author> <title>Πολιτικῷ</title></bibl>.</entryFree>
+   <entryFree n="37"><form>Αἰσχροκερδής</form>: <bibl><author><persName><name>Εὐριπίδης</name></persName></author> <title>Ἀνδρομέδᾳ</title></bibl>.</entryFree>
+   <entryFree n="38"><form>Ἀψυχίαν</form>: <sense>ἀντὶ τοῦ δειλίαν</sense>. <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Γοργίᾳ</title></bibl>. </entryFree>
+   <entryFree n="39"><form>Ἀληθεστέρως</form>: <bibl><author><persName><name>Πλάτων</name></persName></author> <biblScope>τρίτῳ</biblScope> <title>Πολιτείας</title></bibl>. </entryFree>
+   <entryFree n="40"><form>Ἀμεινόνως</form>: <bibl><author><persName><name>Ἀριστοφάνης</name></persName></author> <title>Θεσμοφοριαζούσαις</title></bibl>. </entryFree>
+   <entryFree n="41"><form>Αἰτίαμα</form>: <bibl><author><persName><name>Αἰσχύλος</name></persName></author> <title>Προμηθεῖ δεσμώτῃ</title></bibl>.</entryFree>
+   <entryFree n="42"><form>Ἀνθρωπινώτερον</form>: <bibl><author><persName><name>Δημοσθένης</name></persName></author> <w>ἐν</w> <w>τῷ</w> <title>περὶ τοῦ στεφάνου</title></bibl>.</entryFree>
+   <entryFree n="43"><form>Ἀλιότερον</form>: <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>κατὰ Λεπτίνου</title></bibl>.</entryFree>
+   <entryFree n="44"><form>Αὐτός</form>: <sense>ἀντὶ τοῦ ὁ δεσπότης</sense>. <q>Αὐτὸς λέγει</q>, <q>αὐτὸς ἄρχεται</q>, <persName><name>Ἀριστοφάνης</name></persName>.</entryFree>
+   <entryFree n="45"><form>Ἀποκεφαλίζειν</form>: <sense>ἀντὶ τοῦ ἀποτυμπανίζειν</sense>. </entryFree>
+   <entryFree n="46"><form>Ἀλήθειν</form>: οὐκ ἀλεῖν. </entryFree>
+   <entryFree n="47"><form>Ἀναρίθμητος</form>: <bibl><author><persName><name>Ἡρόδοτος</name></persName></author> <biblScope unit="book" n="1">πρώτῳ</biblScope></bibl>.</entryFree>
+   <entryFree n="48"><form>Ἀπαρασκεύαστον</form>: <bibl><author><persName><name>Ἀντιφῶν</name></persName></author> <biblScope unit="book" n="3">τρίτῳ</biblScope> <title>ῥητορικῆς τέχνης</title></bibl>.</entryFree>
+   <entryFree n="49"><form>Ἀμάθητος</form>: <sense>ἀντὶ τοῦ ἀμαθής</sense>. <bibl><author><persName><name>Φρύνιχος</name></persName></author> <title>Κόνῳ</title></bibl>.</entryFree>
+   <entryFree n="50"><form>Ἀφθόνητος</form>: <bibl><author><persName><name>Πίνδαρος</name></persName></author> <title>Ὀλυμπιονίκαις</title></bibl>.</entryFree>
+   <entryFree n="51"><form>Ἀποφυγγάνει</form>: <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>κατὰ Ἀριστοκράτους</title></bibl>.</entryFree>
+   <entryFree n="52"><form>Ἀποτετύχηται</form>: <sense>ἀντὶ τοῦ ἀποτέτευκται</sense>. <bibl><author><persName><name>Ἀνάξιππος</name></persName></author> <title>Κεραυνῷ</title></bibl>.</entryFree>
+   <entryFree n="53"><form>Ἁμαρτία</form>: <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Πολιτείας</title> <biblScope unit="book" n="1">πρώτῳ</biblScope> καὶ <biblScope unit="book" n="2">δευτέρῳ</biblScope></bibl>, <bibl><author><persName><name>Ἡρόδοτος</name></persName></author> <biblScope unit="book" n="1">πρώτῳ</biblScope> καὶ <biblScope unit="book" n="3">τρίτῳ</biblScope></bibl>.</entryFree>
+   <entryFree n="54"><form>Ἁμαρτεῖν καὶ ἀδικῆσαι</form>: διαφόρως τάσσουσιν.</entryFree>
+   <entryFree n="55"><form>Ἁμαρτωλία</form>: <bibl><author><persName><name>Ἀριστοφάνης</name></persName></author> <title>Εἰρήνῃ</title></bibl>, <bibl><author><persName><name>Εὔπολις</name></persName></author> <title>Μαρικᾷ</title></bibl>.</entryFree>
+   <entryFree n="56"><form><app><rdg resp="C">Ἀναπεῖσαι</rdg><rdg resp="Meineke">Ἀνασεῖσαι</rdg></app></form>: <sense>ἀντὶ τοῦ ἀναπεῖσαι</sense>. <bibl><author><persName><name>Κάνθαρος</name></persName></author> <title>Τηρεῖ</title></bibl>.</entryFree>
+   <entryFree n="57"><form>Ἁψιμαχεῖν</form>: <bibl><author><persName><name>Ὑπερείδης</name></persName></author> <w>ἐν</w> <w>τῷ</w> <title>περὶ τῶν ὁρίων</title></bibl>. καὶ <re>ἁψίμαχον γερόντιον</re>. </entryFree>
+   <entryFree n="58"><form>Ἀλετρίβανον</form>: <sense>ἀντὶ τοῦ δοίδυκα</sense>. <bibl><author><persName><name>Ἀριστοφάνης</name></persName></author> <title>Εἰρήνῃ</title></bibl> τρὶς κέχρηται τῇ λέξει.</entryFree>
+   <entryFree n="59"><form>Ἄγειν</form>: ἐπὶ τοῦ σταθμοῦ. <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>κατὰ Τιμοκράτους</title></bibl>·<cit><q> Ὃς ἦγε δαρεικοὺς τριακοσίους</q></cit>. </entryFree>
+   <entryFree n="60"><form>Ἀργύρωμα</form>, <form>χρύσωμα</form>: οὐχὶ ἀργυροῦν, χρυσοῦν. </entryFree>
+   <entryFree n="61"><form>Ἀθυρόγλωσσος</form>: <bibl><author><persName><name>Εὐριπίδης</name></persName></author> <title>Ὀρέστῃ</title></bibl>.</entryFree>
+    <entryFree n="62"><form>Ἀργύρια</form>: <gram>πληθυντικῶς, οὐχ ἑνικῶς</gram>. <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Κλεοφῶντι</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀριστητικός</form>: <sense>ἀντὶ τοῦ ἔθος ἔχων ἀριστᾷν</sense>. <bibl><author><persName><name>Εὔπολις</name></persName></author> <title>Δήμοις</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀστράγαλοι</form>: <gram>ἀρσενικῶς, οὐχὶ θηλυκῶς</gram>. <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Θεαιτήτῳ</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀπεδημηκότος</form>: <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>κατὰ Λεπτίνου</title></bibl>, <bibl><author><persName><name>Ξενοφῶν</name></persName></author> <title>Ἀπομνημονευμάτων</title> <biblScope unit="book" n="3">τρίτῳ</biblScope></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀμύνει τοὺς πολεμίους</form>: <sense>ἀντὶ τοῦ ἀμύνεται</sense>. <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Φαίδρῳ</title></bibl>. </entryFree>
+    <entryFree n=""><form>Ἀπάρτι</form>: <sense>ἀντὶ τοῦ ἄρτι ἀπὸ νῦν</sense>. <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Σοφισταῖς</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀθετεῖν</form> φασὶν οὐ δεῖν λέγειν, ἀλλ’ ἀναίρειν. <sic>ἴασιν</sic> οὖν ὁ γραμματικὸς μέμφεται ἐπὶ τῇ λέξει <persName><name>Ἀρίσταρχον</name></persName>.</entryFree>
+    <entryFree n=""><form>Ἀναπτερῶσαι</form>: <bibl><author><persName><name>Ξενοφῶν</name></persName></author> <title>Συμποσίῳ</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀναβολὴν ᾠδῆς</form>: ὡς λέγουσιν <q>Ἄνω βάλε ἡμῖν</q>. καὶ <bibl><author><persName><rs>ὁ ποιητής</rs></persName></author></bibl>· <cit><q>ἤτοι ὁ φορμίζων ἀνεβάλλετο</q></cit>.</entryFree>
+    <entryFree n=""><form>Αἰδέσεως</form>: <sense>ἀντὶ τοῦ αἰδοῦς</sense>. <bibl><author><persName><name>Δημοσθένης</name></persName></author> <w>ἐν</w> <w>τῷ</w> <title>κατὰ Μειδίου</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀδημοσύνη</form>: <bibl><author><persName><name>Ξενοφῶν</name></persName></author> <title>Ἀπομνημονεύμασιν</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀφθονέστερον</form>: <bibl><author><persName><name>Πίνδαρος</name></persName></author> <title>Ἐπινικίοις</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀρχαιέστερον</form>: <bibl><author><persName><name>Πίνδαρος</name></persName></author> <title>Ὕμνοις</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀνισῶσαι</form>: <sense>ἐπὶ τοῦ πλεῖον ἐγχέαι πιεῖν τῷ ὕστερον ἐλθόντι</sense>.</entryFree>
+    <entryFree n=""><form>Ἀκακίαν</form>: <sense>ἀντὶ τοῦ ἁπλότητα</sense>. </entryFree>
+    <entryFree n=""><form>Ἀφελοῦμαι</form>: <sense>ἀντὶ τοῦ ἀφαιρήσομαι</sense>. <bibl><author><persName><name>Τιμόστρατος</name></persName></author> <title>Φιλοδεσπότῃ</title></bibl>. </entryFree>
+    <entryFree n=""><form>Ἁλυκόν</form>: <sense>ἀντὶ τοῦ ἁλμυρόν</sense>. <bibl><author><persName><name>Ἀριστοφάνης</name></persName></author> <title>Βαβυλωνίοις</title></bibl>. </entryFree>
+    <entryFree n=""><form>Ἀσχάλλειν</form>: <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>κατὰ Μειδίου</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀνελπίστως</form>: <sense>ἀντὶ τοῦ ἀδοκήτως</sense>. <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>περὶ τοῦ στεφάνου</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀνώτερον</form>: <sense>ἀντὶ τοῦ ἀνωτέρω</sense>. <bibl><author><persName><name>Δημοσθένης</name></persName></author> <title>περὶ τοῦ στεφάνου</title></bibl>. </entryFree>
+    <entryFree n=""><form>Ἀρεστός</form>: <sense>ἀντὶ τοῦ ἀρέσκων</sense>. <bibl><author><persName><name>Πλάτων</name></persName></author> <title>Φαίδρῳ</title></bibl>.</entryFree>
+    <entryFree n=""><form>Ἀξιούμενος</form>: <sense>παρακαλούμενος</sense>. καὶ <form>ἀξίωμα</form> <sense>ἀντὶ τοῦ παράκλησις</sense>.</entryFree>
+    <entryFree n=""><form>Ἀνὰ μέρος</form>: <sense>ἀντὶ τοῦ ἐν μέρει</sense>. <bibl><author><persName><name>Εὐριπίδης</name></persName></author> <title>Φοινίσσαις</title></bibl>. </entryFree>
+    <entryFree n=""><form>Ἀνὰ μέσον</form>: <sense>ἀντὶ τοῦ ἐν μέσῳ</sense>. <bibl><author><persName><name>Ἀντιφάνης</name></persName></author> <title>Ἀδώνιδι</title></bibl>. </entryFree>
+    <entryFree n=""><form>Ἀπείπασθαι τὸν παῖδα</form>: <sense>ἀντὶ τοῦ ἀρνήσασθαι</sense>. <bibl><author><persName><name>Ἡρόδοτος</name></persName></author> <biblScope unit="book" n="1">πρώτῳ</biblScope></bibl>.</entryFree>
+
+   </div>
+  </body>
+ </text>
+</TEI>
