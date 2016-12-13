@@ -1,0 +1,42 @@
+* word-level
+** words, phrases, forms which are addressed
+I use the element "form" to encode them – but a form can appear also
+in the middle of an entry.
+** "words-as-words", part of information given about "forms"
+** connectives
+particles used to connect "forms" to each other or "words-as-words" to
+each other
+** words which are part of information given
+** words belongig to quoted passages
+** references to collective persons / speakers
+** names of authors
+** titles of works
+** references to a specific part of a specific cited work
+* "top level constituents"
+* Variation in the syntax of the entries
+- headword in accusative - the entry in the structure: A says H (in
+  the sense of etc.)
+- headword in nominative - the entry in the structure: H is used by A etc.
+* Types of entries
+** simply stating the existence of a word
+- <head>
+** simply stating the existence of a word in author A
+- <head> is used in  <bibl><author> A [<title> T]
+** remarks on semantics <sense>
+- <head> has the meaning of <sense>
+  - ψαφαρὸν τὸ ἁπαλὸν Πλάτων Ποιητῇ.
+- <head> is used in the <sense>[<w>] S in <bibl><author> A [<title> T]
+  - ὠτοκάταξιν τὸν συνεντριμμένον τὸ οὗς Άριστοφάνης Βαβυλωνίοις.
+- <head> is used instead of <sense>[<w>] S [in <bibl><author> A
+  [<title> T]]
+  - ᾠδικὸς ἀντὶ τοῦ εὖ ᾄδων
+- <head> has the meaning/is used to denote [also] S [not only S1] in
+  author A.
+*** different ways for indicating the meaning of a word
+- synonym
+- defintion
+- application domain
+** canonical remarks
+- <head> is not supposed to be used, as they say, [but instead of this
+  <w>]
+  - φειδωλίαν οὔ φασι δεῖ λέγειν.

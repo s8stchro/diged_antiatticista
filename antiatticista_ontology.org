@@ -1,0 +1,15 @@
+* word-level
+** words, phrases, forms which are addressed
+I use the element "form" to encode them – but a form can appear also
+in the middle of an entry.
+** "words-as-words", part of information given about "forms"
+** connectives
+particles used to connect "forms" to each other or "words-as-words" to
+each other
+** words which are part of information given
+** words belongig to quoted passages
+** references to collective persons / speakers
+** names of authors
+** titles of works
+** references to a specific part of a specific cited work
+* "top level constituents"
