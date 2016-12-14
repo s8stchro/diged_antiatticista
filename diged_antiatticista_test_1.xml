@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<body>
+<div1 type="part" n="A">
+<head>Α</head>
+<entry n="1">
+	<entryHead>
+		<form type="phrase">ἀπὸ στόματος:</form>
+	</entryHead> 
+	<bibl>Ξενοφῶν ἐν τῇ <title>Ἀναβάσει</title></bibl>, 
+	<bibl>Πλάτων <title>Θεαιτήτῳ</title>.</bibl>
+</entry>
+
+<entry n="2">
+	<entryHead>
+		<form type="simple">Ἀστή:</form>
+	</entryHead> 
+	<sense>
+		<definition>πᾶσα ἡ ἐξ ἡστινοσοῦν πόλεως, οὐ μόνον ἐξ Ἀθηνῶν.</definition>
+	</sense>
+</entry>
+
+<entry n="3">
+	<entryHead>
+		<form type="simle">Ἀθηναίαν:</form>
+	</entryHead> 
+	<atticisticRemark type="prohibition">οὐκ Ἀττικήν.</atticisticRemark>
+</entry>
+
+<entry n="4">
+	<entryHead>
+		<form type="phrase">Αὐτὸς αὑτόν:</form>
+	</entryHead> 
+	<morphology>ἀντὶ τοῦ <w>ἐμαυτόν</w>.</morphology>
+</entry>
+
+<entry n="5">
+	<entryHead>
+		<form type="simple">Αὑτοῦ:</form>
+	</entryHead> 
+	<morphology>ἀντὶ τοῦ <w>σαυτοῦ</w>.</morphology>
+</entry>
+
+<entry n="6">
+	<entryHead>
+		<form type="simple">Αὑτῷ:</form>
+	</entryHead> 
+	<morphology>ἀντὶ τοῦ <w>ἐμαυτῷ</w>.</morphology>
+</entry>
+
+<entry n="7">
+	<entryHead>
+		<form type="simple">Ἀκράχολος:</form>
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <biblScope unit="book" n="2">δευτέρῳ</biblScope> <title>Πολιτείας</title>.</bibl>
+</entry>
+
+<entry n="8">
+	<entryHead>
+		<form type="simple">Ἀνέπεσεν:</form>
+	</entryHead> 
+	<lexicology>
+		<synonym>ἀντὶ τοῦ <w>ἀνεκλίθη</w>.</synonym>
+	</lexicology>
+</entry>
+
+<entry n="9">
+	<entryHead>
+		<form type="phrase">Ἀεί ποτε:</form>
+	</entryHead> 
+	<bibl><author>Θουκυδίδης</author> <biblScope unit="book" n="4">τετάρτῳ</biblScope>.</bibl> 
+</entry>
+
+<entry n="10">
+	<entryHead>
+		<form type="simple">Ἀποκριθῆναι:</form>
+	</entryHead> 
+	<atticisticRemark type="prohibition">
+		<gram>οὐκ <w>ἀποκρίνασθαι</w>.</gram>
+	</atticisticRemark>
+</entry>
+
+<entry n="11">
+	<entryHead>
+		<form type="phrase">Αἰσχυντηλὸς εἶ:</form>
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <title>Γοργίᾳ</title>.</bibl>
+</entry>
+
+<entry n="12">
+	<entryHead>
+		<form type="phrase">Ἀπὸ πρώτης:</form>
+	</entryHead> 
+	<gram>ἀντὶ τοῦ <w>πρῶτον</w>.</gram> 
+</entry>
+
+<entry n="13">
+	<entryHead>
+		<form type="simple">Ἄξιον:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>εὔωνον</w>.</synonym>
+		<bibl><author>Λυσίας</author> ἐν τῷ <title>κατὰ τῶν σιτοπωλῶν</title>.</bibl>
+	</sense> 
+</entry>
+
+<entry n="14">
+	<entryHead>
+		<form type="simple">Ἀξία:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἀξίωμα</w>.</synonym>
+		<bibl><author>Δημοσθένης</author> ἐν τῇ <title><rs>ἐπιστολῇ, ἧς ἀρχὴ <q>Περὶ μὲν τῶν κατ’ ἐμαυτόν</q></rs></title>.</bibl>
+	</sense> 
+</entry>
+
+<entry n="15">
+	<entryHead>
+		<form type="simple">Ἀκούειν:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>πειθαρχεῖν</w>.</synonym>
+		<bibl><author>Δημοσθένης</author> <title>κατὰ Λεπτίνου</title>.</bibl>
+	</sense> 
+</entry>
+
+<entry n="16">
+	<entryHead>
+		<form type="phrase">Ἀκούει καλῶς:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>εὐφημεῖται</w>.</synonym>
+		<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="3">τρίτῳ</biblScope>.</bibl>
+	</sense> 
+</entry>
+
+<entry n="17">
+	<entryHead>
+		<form type="inflected">Ἀκροᾶσαι σύ:</form>
+	</entryHead> 
+	<gram>ἀντὶ τοῦ ἀκροᾷ</gram> 
+	<sense><synonym>ἢ <w>ἀκούεις</w>.</synonym></sense>
+</entry>
+
+<entry n="18">
+	<entryHead>
+		<form type="simple">Αἱρετίζειν:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>αἱρεῖσθαι</w>.</synonym>
+	</sense>
+</entry>
+
+<entry n="19">
+	<entryHead>
+		<form type="simple">Ἄκληρος:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἀτυχής</w>.</synonym>
+	</sense>
+</entry>
+
+<entry n="20">
+	<entryHead>
+		<form type="simple">Ἀκληρίαν:</form>
+	</entryHead> 
+	<bibl><author>Ἀντιφάνης</author> <title>Ἀδώνιδι</title>.</bibl>
+	<sense><bibl><author><rs>ὁ αὐτὸς</rs></author></bibl> 
+	<form type="simple">εὐκλήρωμα</form> 
+	<synonym>ἀντὶ τοῦ <w>κατόρθωμα</w>.</synonym>
+	</sense>
+</entry>
+
+<entry n="21">
+	<entryHead>
+		<form type="simple">Ἀκμήν:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἔτι</w>.</synonym>
+		<bibl><author>Ὑπερείδης</author> <title>ὑπὲρ Κρατίνου</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="22">
+	<entryHead>
+		<form type="simple">Ἀνταποδοῦναι</form>, 
+		<form type="simple">ἀνταπαιτῆσαι</form>, 
+		<form type="simple">ἀνταμύνασθαι:</form>
+	</entryHead> 
+	<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="1">πρώτῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="23">
+	<entryHead>
+		<form type="simple">Ἀνταπολαμβάνειν:</form>
+	</entryHead> 
+	<bibl><author>Δημοσθένης</author> ἐν τῷ <title>κατὰ Λεπτίνου</title>.</bibl>
+</entry>
+
+<entry n="24">
+	<entryHead>
+		<form type="simple">Ἀντιλογῆσαι:</form>
+	</entryHead> 
+	<bibl><author>Ἀριστοφάνης</author> <title>Νεφέλαις</title>.</bibl>
+</entry>
+
+<entry n="25">
+	<entryHead>
+		<form type="simple">Ἀστοργία</form>, 
+		<form type="simple">φιλοστοργία</form>, 
+		<form type="simple">στοργή:</form>
+	</entryHead> 
+	<bibl><author>Ἀντιφῶν</author> ἐν <biblScope unit="book" n="2">δευτέρῳ</biblScope> <title>περὶ τῆς ῥητορικῆς τέχνης</title>.</bibl>
+</entry>
+
+<entry n="26">
+	<entryHead>
+		<form type="simple">Ἀγοράσαι:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ὠνήσασθαι</w></synonym>, 
+		<atticisticRemark type="prohibition">οὐκ ἐπὶ τοῦ ἐν ἀγορᾷ διατρίβειν</atticisticRemark>. 
+		<bibl><author>Δημοσθένης</author> <title>κατὰ Ἀριστογείτονος</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="27">
+	<entryHead>
+		<form type="simple">Ἀνελευθερία:</form>
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <title>Πολιτείας</title> <biblScope unit="book" n="2">δευτέρῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="28">
+	<entryHead>
+		<form type="simple">Ἀναπειρίαν:</form>
+	</entryHead> 
+	<bibl><author>Ἀριστοφάνης</author> <title>Πλούτῳ</title>.</bibl>
+</entry>
+
+<entry n="29">
+	<entryHead>
+		<form type="simple">Ἀμελετησία:</form>
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <title>Θεαιτήτῳ</title>.</bibl>
+</entry>
+
+<entry n="30">
+	<entryHead>
+		<form type="simple">Ἀχρηστίαν:</form>
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <biblScope unit="book" n="1">πρώτῳ</biblScope> <title>Πολιτείας</title>.</bibl>
+</entry>
+
+<entry n="31">
+	<entryHead>
+		<form>Ἀγαθουργίαν:</form>
+	</entryHead> 
+	<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="1">πρώτῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="32">
+	<entryHead>
+		<form>Ἀσυνεσία:</form>
+	</entryHead> 
+	<bibl><author>Θουκυδίδης</author> <biblScope unit="book" n="3">τρίτῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="33">
+	<entryHead>
+		<form>Ἀντιβολία:</form>
+	</entryHead> 
+	<bibl><author>Θουκυδίδης</author> <biblScope unit="book" n="7">ἑβδόμῳ</biblScope>.</bibl> 
+</entry>
+
+<entry n="34">
+	<entryHead>
+		<form>Ἀθεραπευσία:</form>
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <title>Πολιτείας</title> <biblScope unit="book" n="3">τρίτῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="35">
+	<entryHead>
+		<form>Ἀλιμενία:</form>
+	</entryHead> 
+	<bibl><author>Ὑπερείδης</author> ἐν τῷ <title>περὶ τοῦ Πολύευκτον στρατηγεῖν</title>.</bibl>
+</entry>
+
+<entry n="36">
+	<entryHead>
+		<form>Ἀπειθαρχία:</form>
+	</entryHead> 
+	<bibl><author>Ἀντιφῶν</author> <title>Πολιτικῷ</title>.</bibl>
+</entry>
+
+<entry n="37">
+	<entryHead>
+		<form>Αἰσχροκερδής:</form>
+	</entryHead> 
+	<bibl><author>Εὐριπίδης</author> <title>Ἀνδρομέδᾳ</title>.</bibl>
+</entry>
+
+<entry n="38">
+	<entryHead>
+		<form>Ἀψυχίαν:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ δειλίαν</synonym>. 
+		<bibl><author>Πλάτων</author> <title>Γοργίᾳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="39">
+	<entryHead>
+		<form>Ἀληθεστέρως:</form>
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <biblScope>τρίτῳ</biblScope> <title>Πολιτείας</title>.</bibl>
+</entry>
+
+<entry n="40">
+	<entryHead>
+		<form>Ἀμεινόνως:</form>
+	</entryHead> 
+	<bibl><author>Ἀριστοφάνης</author> <title>Θεσμοφοριαζούσαις</title>.</bibl>
+</entry>
+
+<entry n="41">
+	<entryHead>
+		<form>Αἰτίαμα:</form>
+	</entryHead> 
+	<bibl><author>Αἰσχύλος</author> <title>Προμηθεῖ δεσμώτῃ</title>.</bibl>
+</entry>
+
+<entry n="42">
+	<entryHead>
+		<form>Ἀνθρωπινώτερον:</form>
+	</entryHead> 
+	<bibl><author>Δημοσθένης</author> ἐν τῷ <title>περὶ τοῦ στεφάνου</title>.</bibl>
+</entry>
+
+<entry n="43">
+	<entryHead>
+		<form>Ἀλιότερον:</form>
+	</entryHead> 
+	<bibl><author>Δημοσθένης</author> <title>κατὰ Λεπτίνου</title>.</bibl>
+</entry>
+
+<entry n="44">
+	<entryHead>
+		<form>Αὐτός:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ὁ δεσπότης</w></synonym>. 
+		<q>Αὐτὸς λέγει</q>, <q>αὐτὸς ἄρχεται</q>,
+		<bibl><author>Ἀριστοφάνης</author>.</bibl>
+	</sense>
+</entry>
+
+<entry n="45">
+	<entryHead>
+		<form>Ἀποκεφαλίζειν:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἀποτυμπανίζειν</w>.</synonym>
+	</sense>
+</entry>
+
+<entry n="46">
+	<entryHead>
+		<form>Ἀλήθειν:</form>
+	</entryHead> 
+	<atticisticRemark type="prohibition">οὐκ <w>ἀλεῖν</w>.</atticisticRemark>
+</entry>
+
+<entry n="47">
+	<entryHead>
+		<form>Ἀναρίθμητος:</form>
+	</entryHead> 
+	<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="1">πρώτῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="48">
+	<entryHead>
+		<form>Ἀπαρασκεύαστον:</form>
+	</entryHead> 
+	<bibl><author>Ἀντιφῶν</author> <biblScope unit="book" n="3">τρίτῳ</biblScope> <title>ῥητορικῆς τέχνης</title>.</bibl>
+</entry>
+
+<entry n="49">
+	<entryHead>
+		<form>Ἀμάθητος:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἀμαθής</w></synonym>.
+		<bibl><author>Φρύνιχος</author> <title>Κόνῳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="50">
+	<entryHead>
+		<form>Ἀφθόνητος:</form>
+	</entryHead> 
+	<bibl><author>Πίνδαρος</author> <title>Ὀλυμπιονίκαις</title>.</bibl>
+</entry>
+
+<entry n="51">
+	<entryHead>
+		<form>Ἀποφυγγάνει:</form>
+	</entryHead> 
+	<bibl><author>Δημοσθένης</author> <title>κατὰ Ἀριστοκράτους</title>.</bibl>
+</entry>
+
+<entry n="52">
+	<entryHead>
+		<form>Ἀποτετύχηται:</form>
+	</entryHead> 
+	<gram>ἀντὶ τοῦ <w>ἀποτέτευκται</w>.</gram> 
+	<bibl><author>Ἀνάξιππος</author> <title>Κεραυνῷ</title>.</bibl>
+</entry>
+
+<entry n="53">
+	<entryHead>
+		<form>Ἁμαρτία:</form>
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <title>Πολιτείας</title> <biblScope unit="book" n="1">πρώτῳ</biblScope> καὶ <biblScope unit="book" n="2">δευτέρῳ</biblScope></bibl>, 
+	<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="1">πρώτῳ</biblScope> καὶ <biblScope unit="book" n="3">τρίτῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="54">
+	<entryHead>
+		<form>Ἁμαρτεῖν</form> καὶ <form>ἀδικῆσαι</form>:
+	</entryHead> 
+	<sense>
+		<distinctiveSynonym>διαφόρως τάσσουσιν.</distinctiveSynonym>
+</sense>
+</entry>
+
+<entry n="55">
+	<entryHead>
+		<form>Ἁμαρτωλία:</form>
+	</entryHead> 
+	<bibl><author>Ἀριστοφάνης</author> <title>Εἰρήνῃ</title></bibl>, 
+	<bibl><author>Εὔπολις</author> <title>Μαρικᾷ</title>.</bibl>
+</entry>
+
+<entry n="56">
+	<entryHead>
+		<form><app><rdg resp="C">Ἀναπεῖσαι</rdg><rdg resp="Meineke">Ἀνασεῖσαι</rdg></app></form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἀναπεῖσαι</w>.</synonym>
+		<bibl><author>Κάνθαρος</author> <title>Τηρεῖ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="57">
+	<entryHead>
+		<form>Ἁψιμαχεῖν:</form>
+	</entryHead> 
+	<bibl><author>Ὑπερείδης</author> ἐν τῷ <title>περὶ τῶν ὁρίων</title>.</bibl> 
+	<re>καὶ <phr>ἁψίμαχον γερόντιον</phr>.</re>
+</entry>
+
+<entry n="58">
+	<entryHead>
+		<form>Ἀλετρίβανον:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>δοίδυκα</w>.</synonym>
+		<bibl><author>Ἀριστοφάνης</author> <title>Εἰρήνῃ</title> τρὶς κέχρηται τῇ λέξει.</bibl>
+	</sense>
+</entry>
+
+<entry n="59">
+	<entryHead>
+		<form>Ἄγειν:</form>
+	</entryHead> 
+	<sense>
+		<definition>ἐπὶ τοῦ σταθμοῦ.</definition>
+		<cit>
+			<bibl><author>Δημοσθένης</author> <title>κατὰ Τιμοκράτους</title>·</bibl>
+			<q> Ὃς ἦγε δαρεικοὺς τριακοσίους</q>.
+		</cit>
+	</sense>
+</entry>
+
+<entry n="60">
+	<entryHead>
+		<form>Ἀργύρωμα</form>, 
+		<form>χρύσωμα:</form>
+	</entryHead> 
+	<atticisticRemark type="prohibition">οὐχὶ <w>ἀργυροῦν</w>, <w>χρυσοῦν</w>.</atticisticRemark>
+</entry>
+
+<entry n="61">
+	<entryHead>
+		<form>Ἀθυρόγλωσσος:</form>
+	</entryHead> 
+	<bibl><author>Εὐριπίδης</author> <title>Ὀρέστῃ</title>.</bibl>
+</entry>
+
+<entry n="62">
+	<entryHead>
+		<form>Ἀργύρια:</form>
+	</entryHead> 
+	<gram>πληθυντικῶς, οὐχ ἑνικῶς.</gram>
+	<bibl><author>Πλάτων</author> <title>Κλεοφῶντι</title>.</bibl>
+</entry>
+
+<entry n="63">
+	<entryHead>
+		<form>Ἀριστητικός:</form>
+	</entryHead>
+	<sense>
+		<synonym>ἀντὶ τοῦ <phr>ἔθος ἔχων ἀριστᾷν</phr></synonym>.
+		<bibl><author>Εὔπολις</author> <title>Δήμοις</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="64">
+	<entryHead>
+		<form>Ἀστράγαλοι:</form>
+	</entryHead> 
+	<gram>ἀρσενικῶς, οὐχὶ θηλυκῶς.</gram>
+	<bibl><author>Πλάτων</author> <title>Θεαιτήτῳ</title>.</bibl>
+</entry>
+
+<entry n="65">
+	<entryHead>
+		<form>Ἀπεδημηκότος:</form>
+	</entryHead>
+	<bibl><author>Δημοσθένης</author> <title>κατὰ Λεπτίνου</title></bibl>, 
+	<bibl><author>Ξενοφῶν</author> <title>Ἀπομνημονευμάτων</title> <biblScope unit="book" n="3">τρίτῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="66">
+	<entryHead>
+		<form type="phrase">Ἀμύνει τοὺς πολεμίους:</form>
+	</entryHead> 
+	<gram>ἀντὶ τοῦ <w>ἀμύνεται.</w></gram>
+	<bibl><author>Πλάτων</author> <title>Φαίδρῳ</title>.</bibl>
+</entry>
+
+<entry n="67">
+	<entryHead>
+		<form>Ἀπάρτι:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <phr>ἄρτι ἀπὸ νῦν.</phr></synonym>
+		<bibl><author>Πλάτων</author> <title>Σοφισταῖς</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="68">
+	<entryHead>
+		<form>Ἀθετεῖν</form>
+	</entryHead> 
+	<atticisticRemark type="prohibition">φασὶν οὐ δεῖν λέγειν,</atticisticRemark> 
+	<atticisticRemark type="recommendation">ἀλλ’ <w>ἀναίρειν</w>.</atticisticRemark>
+	<atticisticRemark type="debate"><sic>ἴασιν</sic> οὖν ὁ γραμματικὸς μέμφεται ἐπὶ τῇ λέξει <perName>Ἀρίσταρχον</perName>.</atticisticRemark>
+</entry>
+
+<entry n="69">
+	<entryHead>
+		<form>Ἀναπτερῶσαι:</form>
+	</entryHead> 
+	<bibl><author>Ξενοφῶν</author> <title>Συμποσίῳ</title>.</bibl>
+</entry>
+
+<entry n="70">
+	<entryHead>
+		<form type="phrase">Ἀναβολὴν ᾠδῆς:</form>
+	</entryHead> 
+	<re>ὡς λέγουσιν <q>Ἄνω βάλε ἡμῖν</q>.</re> 
+	<re>καὶ <cit><bibl><author><rs>ὁ ποιητής</rs></author>·</bibl> <q>ἤτοι ὁ φορμίζων ἀνεβάλλετο</q></cit>.</re>
+</entry>
+
+<entry n="71">
+	<entryHead>
+		<form>Αἰδέσεως:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>αἰδοῦς</w></synonym>. 
+		<bibl><author>Δημοσθένης</author> ἐν τῷ <title>κατὰ Μειδίου</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="72">
+	<entryHead>
+		<form>Ἀδημοσύνη:</form>
+	</entryHead> 
+	<bibl><author>Ξενοφῶν</author> <title>Ἀπομνημονεύμασιν</title>.</bibl>
+</entry>
+
+<entry n="73">
+	<entryHead>
+		<form>Ἀφθονέστερον:</form>
+	</entryHead> 
+	<bibl><author>Πίνδαρος</author> <title>Ἐπινικίοις</title>.</bibl>
+</entry>
+
+<entry n="74">
+	<entryHead>
+		<form>Ἀρχαιέστερον:</form>
+	</entryHead> 
+	<bibl><author>Πίνδαρος</author> <title>Ὕμνοις</title>.</bibl>
+</entry>
+
+<entry n="75">
+	<entryHead>
+		<form>Ἀνισῶσαι:</form>
+	</entryHead> 
+	<sense>
+		<definition>ἐπὶ τοῦ πλεῖον ἐγχέαι πιεῖν τῷ ὕστερον ἐλθόντι.</definition>
+	</sense>
+</entry>
+
+<entry n="76">
+	<entryHead>
+		<form>Ἀκακίαν:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἁπλότητα</w>.</synonym>
+	</sense>
+</entry>
+
+<entry n="77">
+	<entryHead>
+		<form>Ἀφελοῦμαι:</form>
+	</entryHead>
+	<gram>ἀντὶ τοῦ <w>ἀφαιρήσομαι</w>.</gram>
+	<bibl><author>Τιμόστρατος</author> <title>Φιλοδεσπότῃ</title>.</bibl>
+</entry>
+
+<entry n="78">
+	<entryHead>
+		<form>Ἁλυκόν:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἁλμυρόν</w>.</synonym>
+		<bibl><author>Ἀριστοφάνης</author> <title>Βαβυλωνίοις</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="79">
+	<entryHead>
+		<form>Ἀσχάλλειν:</form>
+	</entryHead> 
+	<bibl><author>Δημοσθένης</author> <title>κατὰ Μειδίου</title>.</bibl>
+</entry>
+
+<entry n="80">
+	<entryHead>
+		<form>Ἀνελπίστως:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἀδοκήτως</w>.</synonym>
+		<bibl><author>Δημοσθένης</author> <title>περὶ τοῦ στεφάνου</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="81">
+	<entryHead>
+		<form>Ἀνώτερον:</form>
+	</entryHead>
+	<gram>ἀντὶ τοῦ <w>ἀνωτέρω</w>.</gram>
+	<bibl><author>Δημοσθένης</author> <title>περὶ τοῦ στεφάνου</title>.</bibl> </entry>
+
+<entry n="82">
+	<entryHead>
+		<form>Ἀρεστός:</form>
+	</entryHead> <gram>ἀντὶ τοῦ <w>ἀρέσκων</w>.</gram>
+	<bibl><author>Πλάτων</author> <title>Φαίδρῳ</title>.</bibl>
+</entry>
+
+<entry n="83">
+	<entryHead>
+		<form>Ἀξιούμενος:</form>
+	</entryHead> 
+	<sense>
+		<synonym><w>παρακαλούμενος</w>.</synonym></sense> 
+		<re>καὶ 
+			<form>ἀξίωμα</form> 
+			<sense>
+				<synonym>ἀντὶ τοῦ <w>παράκλησις</w></synonym>
+			</sense>.
+		</re>
+</entry>
+
+<entry n="84">
+	<entryHead>
+		<form type="phrase">Ἀνὰ μέρος:</form>
+	</entryHead> 
+	<gram>ἀντὶ τοῦ <phr>ἐν μέρει</phr>.</gram> 
+	<bibl><author>Εὐριπίδης</author> <title>Φοινίσσαις</title>.</bibl> </entry>
+
+<entry n="85">
+	<entryHead>
+		<form>Ἀνὰ μέσον:</form>
+	</entryHead> 
+	<gram>ἀντὶ τοῦ <phr>ἐν μέσῳ</phr>.</gram>
+	<bibl><author>Ἀντιφάνης</author> <title>Ἀδώνιδι</title>.</bibl>
+</entry>
+
+<entry n="86">
+	<entryHead>
+		<form type="phrase">Ἀπείπασθαι τὸν παῖδα:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἀρνήσασθαι</w>.</synonym> 
+		<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="1">πρώτῳ</biblScope>.</bibl>
+	</sense>
+</entry>
+
+<entry n="87">
+	<entryHead>
+		<form type="phrase">Ἀναβῆναι τὸν ἵππον:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἐπιβῆναι</w>.</synonym>
+		<bibl><author>Θεόπομπος</author> ἐν <title>ἐπιτομῇ Ἡροδότου</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="88">
+	<entryHead>
+		<form>Ἀνέψυξα:</form>
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἀνεπαυσάμην</w>.</synonym> 
+		<bibl><author>Δίφιλος</author> <title>Φιλαδέλφῳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="89">
+  <entryHead>
+    <form>Ἀναιδίζεσθαι:</form>
+  </entryHead> 
+  <bibl><author>Ἀριστοφάνης</author> <title>Ἱππεῦσιν</title>.</bibl>
+</entry>
+  
+<entry n="90">
+  <entryHead>
+    <form>Ἀκολασταίνειν:</form>
+  </entryHead> 
+  <bibl><author>Πλάτων</author> <title>Πολιτείας</title> <biblScope unit="book" n="3">τρίτῳ</biblScope>.</bibl>
+</entry>
+  
+<entry n="91">
+  <entryHead>
+    <form>Ἀπόστασις:</form>
+  </entryHead> <sense><synonym>ἀντὶ τοῦ <phr>οἴνου ἀποθήκας ἔχουσα</phr>.</synonym> 
+    <bibl><author>Φιλιππίδης</author> <title>Μαστροπῷ</title>.</bibl>
+  </sense>
+</entry>
+  
+<entry n="100">
+  <entryHead>
+    <form>Ἄχρι τοῦ νῦν:</form>
+  </entryHead> 
+  <gram>μετὰ ἄρθρου</gram>. 
+  <bibl><author>Τιμόστρατος</author> <title>Ἀσώτῳ</title>.</bibl>
+</entry>
+
+<entry n="101">
+  <entryHead>
+    <form>Ἀλλοτριοπράγμων</form>, 
+    <form>ἀλλοτριοπραγμοσύνη:</form>
+  </entryHead> 
+  <bibl><author>Πλάτων</author> <title>Πολιτείας</title> <biblScope unit="book" n="3">τρίτῳ</biblScope>.</bibl>
+</entry>
+  
+<entry n="102">
+  <entryHead>
+    <form>Ἀγκυρίσαι:</form>
+  </entryHead> 
+  <sense><defintion>ἐπὶ τοῦ παλαίσματος.</defintion>. 
+    <q>ἀγκυρίσας ἔῤῥηξεν</q>, <bibl><author>Ἀριστοφάνης</author> <title>Ἱππεῦσιν</title>.</bibl>
+  </sense>
+</entry>
+  
+<entry n="103">
+  <entryHead>
+    <form>Ἀνδρών:</form>
+  </entryHead> 
+  <sense>
+    <defintion>ἐπὶ τοῦ μεγάλου οἴκου.</defintion> 
+    <bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="1">πρώτῳ</biblScope>.</bibl>
+  </sense>
+</entry>
+  
+<entry n="104">
+  <entryHead>
+    <form type="phrase">Ἄλλος ἄλλον παρεκάλει</form>:
+  </entryHead> 
+  <gram>ἀντὶ τοῦ <w>ἀλλήλους</w>.</gram>
+  <bibl><author>Ἀραρὼς</author> <title>Ἀδώνιδι</title>.</bibl>
+</entry>
+  
+<entry n="105">
+  <entryHead>
+    <form>Ἀνακάμψει:</form>
+  </entryHead> 
+  <sense>
+    <synonym>ἀντὶ τοῦ <phr>ὑποστρέψαι ποιήσει</phr>.</synonym>
+    <bibl><author>Ἀντιφάνης</author> <title>Ἀδελφαῖς</title>.</bibl>
+  </sense>
+</entry>
+  
+<entry n="106">
+  <entryHead>
+    <form>Ἀνάβα</form>, 
+    <form>κατάβα</form>, 
+    <form>διάβα</form>, 
+    <form>ἀπόστα:</form>
+  </entryHead> 
+  <cit>
+    <bibl><author>Μένανδρος</author> <title>Ἐπικλήρῳ</title>·</bibl>
+    <q>ὅρα σὺ καὶ φρόντιζε κἀπόστα βραχύ</q>.
+  </cit>
+</entry>
+  
+<entry n="107">
+  <entryHead>
+    <form>Ἀναβῆναι:</form>
+  </entryHead> 
+  <sense>
+    <synonym>ἀντὶ τοῦ <w>ἀναχωρῆσαι</w>.</synonym>
+    <bibl><author>Ἀντιφάνης</author> <title>Αἰγυπτίοις</title>.</bibl>
+  </sense>
+</entry>
+  
+<entry n="108">
+  <entryHead>
+    <form>Αἰτεῖν</form> καὶ 
+    <form>αἰτεῖσθαι</form> 
+    <distinctiveSynonym>διαφέρει</distinctiveSynonym>·
+  </entryHead> 
+  <q>οὐ πῦρ γὰρ αἰτῶν, οὐδὲ λοπάδ’ αἰτούμενος.</q> <distincitveSynonym><w>αἰτεῖσθαι</w> γάρ φησι τὸν ἀποδιδόντα, τὸν δὲ μὴ ἀποδώσοντα <w>αἰτεῖν</w>.</distincitveSynonym> 
+  <cit>
+    <bibl><author>Ἄλεξις</author> δ’ <title>Ἐπικλήρῳ</title></bibl> ἐκδιδόντος τινὸς θυγατέρα· 
+    <q>ἀλλ’ ἔγωγε, παῖ, δίδωμι· καὶ ποήσω πάνθ’ ὅσα οὗτος αἰτεῖται παρ’ ἡμῶν</q>.
+  </cit>
+</entry>
+  
+<entry n="109">
+  <entryHead>
+  <form type="phrase">Ἀκραιφνὲς ὕδωρ:</form>
+  </entryHead> 
+  <bibl><author>Ἀριστοφάνης</author> <title>Ἀμφιαράῳ</title>.</bibl>
+</entry>
+  
+<entry n="110">
+  <entryHead>
+    <form>Ἀπορίαν</form> καὶ 
+    <form>πενίαν</form>:
+  </entryHead> 
+  <distinctiveSynonym>ἀδιαφόρως ἔλεγον.</distinctiveSynonym>
+</entry>  
+</div1>
+
+<div type="part" n="T">
+<head>Τ</head>
+<entry n="1">
+	<entryHead>
+		<form>Τρίκλινον</form>:
+	</entryHead> 
+	<atticisticRemark type="prohibition">
+		<sense>οὐκ <definition>ἐπὶ τῶν τριῶν κλινῶν</definition> φασὶ δεῖν τάσσειν,</sense>
+	</atticisticRemark> 
+	<atticisticRemark type="recommendation">
+		<sense>ἀλλ' <defintion>ἐπὶ τοῦ οἴκου</defintion>.</sense>
+	</atticisticRemark> 
+	<atticisticRemark type="prohibition">
+		<gram type="gender">καὶ ἀρσενικῶς λέγοντες <w>τρίκλινον</w> ἁμαρτάνουσι</gram>
+	</atticisticRemark>
+	<atticisticRemark type="recommendation">
+		<gram><w>τὸ τρίκλινον</w> οὐδετέρως.</gram>
+	</atticisticRemark>
+</entry>
+
+<entry n="2">
+	<entryHead>
+		<form>Τρώγειν</form>:
+	</entryHead> 
+	<atticisticRemark type="prohibition">
+		<sense>οὔ φασι δεῖν λέγειν τὸ <w>ἐσθίειν</w>,</sense>
+	</atticisticRemark> 
+	<atticisticRemark>
+		<sense>ἀλλὰ τὸ <phr>τραγήματα ἐσθίειν</phr>.</sense>
+	</atticisticRemark>
+</entry>
+
+<entry n="3">
+	<entryHead>
+		<form>Τρωγάλια</form>:
+	</entryHead>
+	<sense>
+		<synonym>οὐ μόνον <w>τραγήματα</w> ἔλεγον.</synonym>
+	</sense>
+</entry>
+
+<entry n="4">
+	<entryHead>
+		<form>Τροχάζειν</form>
+	</entryHead>
+	<atticisticRemark type="prohibition">οὔ φασι δεῖν λέγειν,</atticisticRemark> 
+	<atticisticRemark type="recommendation">ἀλλὰ <w>τρέχειν</w>.</atticisticRemark>
+</entry>
+
+<entry n="5">
+	<entryHead>
+		<form>Τραυματισθῆναι</form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>τρωθῆναι</w>.</synonym>
+		<bibl><author>Θουκυδίδης</author></bibl> <app><lemma resp="C">ἐπεὶ ἀκίεν</lemma><rdg resp="Bekker">ἐπ ....</rdg></app>
+		<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="1">πρώτῳ</biblScope>, <biblScope unit="book" n="2">δευτέρῳ</biblScope>, <biblScope unit="book" n="3">τρίτῳ</biblScope>.</bibl>
+	</sense>
+</entry>
+
+<entry n="6">
+	<entryHead>
+		<form>Τοιουτότροπον</form>:
+	</entryHead> 
+	<bibl><author>Θουκυδίδης</author> <biblScope unit="book" n="4">τετάρτῳ</biblScope>.</bibl>
+</entry>
+
+<entry n="7">
+	<entryHead>
+		<form>Τριαχθῆναι</form>:
+	</entryHead> 
+	<sense>
+		<synonym>λέγουσιν <speaker>οἱ παλαιστρικοὶ</speaker> ἀντὶ τοῦ <w>τρὶς πεσεῖν</w></synonym>
+	</sense> 
+	<sense>ἢ τὸ 
+		<definition>τρὶς τροχάσαντα νικηθῆναι στάδιον δίαυλον</definition>.
+	</sense>
+</entry>
+
+<entry n="8">
+	<entryHead>
+		<form type="phrase">Τροποῦσθαι κώπην</form>:
+	</entryHead>
+	<bibl><author>Εὔβουλος</author><title>Κατακολλωμένοις</title>.</bibl>
+</entry>
+
+<entry n="9">
+	<entryHead>
+		<form type="phrase">Τρίτῳ καὶ τετάρτῳ ἔτει</form>:
+	</entryHead> 
+	<gram>ἀντὶ τοῦ <phr>πρὸ τριῶν καὶ τεσσάρων ἐτῶν</phr>.</gram>
+</entry>
+
+<entry n="10">
+	<entryHead>
+		<form>Τελεσθῆναι</form>:
+	</entryHead> 
+	<sense>
+		<synonym>τὸ <w>ἀναλωθῆναι</w>.</synonym>
+		<bibl><author>Ἀντιφῶν</author>.</bibl>
+	</sense>
+</entry>
+</div>
+
+<div1 type="part" n="Υ">
+<head>Υ</head>
+<entry n="1">
+	<entryHead>
+		<form>Ὕπαγε</form>:
+	</entryHead> 
+	<sense>
+		<synonym><w>πορεύου</w>.</synonym> 
+		<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="4">τετάρτῳ</biblScope></bibl>, 
+		<bibl><author>Ἀριστοφάνης</author> <title>Βατράχοις</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="2">
+	<entryHead>
+		<form>Ὑπερήφανον</form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <phr>καλὸν πάνυ</phr>.</synonym>
+		<bibl><author>Πλάτων</author> <title>Γοργίᾳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="3">
+	<entryHead>
+		<form>Ὑπόθεσιν</form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ὑποθήκην</w>.</synonym>
+		<bibl><author>Μένανδρος</author>.</bibl>
+	</sense>
+</entry>
+
+<entry n="4">
+	<entryHead>
+		<form type="phrase">Ὑπέρχολος γενόμενος</form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ὑπεραγανακτήσας</w>.</synonym>
+	</sense>
+</entry>
+
+<entry n="5">
+	<entryHead>
+		<form>Ὑδρηροὺς πίθους</form> καὶ <form>οἰνηρούς</form>:
+	</entryHead> 
+	<bibl><author>Αἰσχύλος</author> <title>Καείραις</title>.</bibl>
+</entry>
+
+<entry n="6">
+	<entryHead>
+		<form>Ὑπόγυος</form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἐγγύς</w>.</synonym>
+		<bibl><author>Ἰσοκράτης</author> <title>περὶ τῆς ἀντιδόσεως</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="7">
+	<entryHead>
+		<form>Ὑγιηρότατος</form>:
+	</entryHead> 
+	<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="2">δευτέρῳ</biblScope></bibl>.
+</entry>
+
+<entry n="8">
+	<entryHead>
+		<form>Ὑπουργία</form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ὑπηρεσία</w>.</synonym>
+		<bibl><author>Λυσίας</author> ἐν τῇ <title>Σωκράτους ἀπολογίᾳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="9">
+	<entryHead>
+		<form>Ὑποπίνειν</form>:
+	</entryHead> 
+	<sense>
+		<synonym><w>μεθύσκεσθαι</w>.</synonym> 
+		<bibl><author>Νικοφῶν</author> <title>Πανδώρᾳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="10">
+	<entryHead>
+		<form>Ὑπογάστριον</form>:
+	</entryHead> 
+	<sense>
+		<synonym>τὸ <w>τάριχος</w>.</synonym>
+	</sense>
+</entry>
+
+<entry n="11">
+	<entryHead>
+		<form>Ὑποκροῦσαι</form>:
+	</entryHead> 
+	<sense>
+		<synonym><w>ἐμποδίσαι</w>.</synonym> 
+		<bibl><author>Ἄλεξις</author> <title>Βοστρύχῳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="12">
+	<entryHead>
+		<form>Ὑγρόν</form>:
+	</entryHead> 
+	<sense>
+		<synonym>τὸ <w>ἁπαλόν</w>, <applicationDomain>ὡς τοὺς ὀρχηστὰς <w>ὑγροὺς</w> λέγομεν</applicationDomain>.</synonym>
+	</sense>
+</entry>
+
+<entry n="13">
+	<entryHead>
+		<form>Ὑπόμακρον</form>:
+	</entryHead> 
+	<sense>
+		<synonym>τὸ <w>ὑπόμηκες</w>.</synonym>
+		<bibl><author>Ἄλεξις</author>.</bibl>
+	</sense>
+</entry>
+
+<entry n="14">
+	<entryHead>
+		<form>Ὑβριστότερον</form>:
+	</entryHead> 
+	<bibl><author>Ἡρόδοτος</author> <biblScope unit="book" n="">τρίτῳ</biblScope></bibl>. 
+</entry>
+</div1>
+
+<div1 type="part" n="Φ">
+
+<head>Φ</head>
+
+<entry n="1">
+	<entryHead>
+		<form>Φυγαδεῦσαι</form>:
+	</entryHead> 
+	<sense>
+		<definition>τὸ <phr>φυγάδα ἐλάσαι</phr>.</definition>
+		<bibl><author>Θεόπομπος</author> <title>ἐπιτομῇ Ἡροδότου</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="2">
+	<entryHead>
+		<form>Φάλαγγας</form>
+	</entryHead>
+	<atticisticRemark type="prohibition"> κωλύουσι λέγειν <definition>τὰ ξύλα, ἐφ' ὧν τὰ πλοῖα νεωλκεῖται</definition>.</atticisticRemark>
+</entry>
+
+<entry n="3">
+	<entryHead>
+		<form>Φιλεῖν</form>:
+	</entryHead> 
+	<atticisticRemark type="recommendation">φασὶ δεῖν λέγειν <definition>τὸ κατὰ ψυχήν</definition></atticisticRemark>,
+	<atticisticRemark><form>Καταφιλεῖν</form> δὲ καὶ <form>κύσαι</form> <defintion>τὸ διὰ τοῦ στόματος</defintion>.</atticisticRemark>
+</entry>
+
+<entry n="4">
+	<entryHead>
+		<form type="phrase">Φίλημα δοῦναι</form>:
+	</entryHead>
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>καταφιλῆσαι</w>.</synonym>
+		<bibl><author>Νικοφῶν</author> <title>Πανδώρᾳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="5">
+	<entryHead>
+		<form>Φιλαδελφία</form> καὶ <form>φιλεταιρία</form>:
+	</entryHead>
+	<bibl><author>Ἄλεξις</author>.</bibl>
+</entry>
+
+<entry n="6">
+	<entryHead>
+		<form>Φιλόγυνος</form>:
+	</entryHead>
+	<atticisticRemark type="parallel-form">οὐ μόνον <w>φιλογύνης</w>.</atticisticRemark>
+	<bibl><author>Λυσίας</author> <title>πρὸς Φιλοκράτην</title>.</bibl>
+</entry>
+
+<entry n="7">
+	<entryHead>
+		<form>Φατρίζειν</form>:
+	</entryHead> 
+	<sense>
+		<defintion>τὸ εἰς τὰς φατρίας συνιέναι.</defintion>
+		<bibl><author>Λυσίας</author>.</bibl>
+	</sense>
+</entry>
+
+<entry n="8">
+	<entryHead>
+		<form>Φειδωλίαν</form>:
+	</entryHead> 
+	<atticisticRemark type="prohibition">οὔ φασι δεῖν λέγειν.</atticisticRemark>
+	<bibl><author>Πλάτων</author>.</bibl>
+</entry>
+
+<entry n="9">
+	<entryHead>
+		<form type="phrase">Φέρειν τὸν οἶνον</form>:
+	</entryHead> 
+	<sense>
+		<definition>ἐπὶ τοῦ νήφειν.</definition>
+		<bibl><author>Διόφαντος</author> <title>Μετοικιζομένῳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="10">
+	<entryHead>
+		<form>Φορητός</form>:
+	</entryHead> 
+	<sense>
+		<synonym><w>ἀνεκτός</w>.</synonym> 
+		<bibl><author>Δημοσθένης</author> <title>κατὰ Μειδίου</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="11">
+	<entryHead>
+		<form>Φοιτητήν</form>:
+	</entryHead> 
+	<atticisticRemark type="prohibition">οὔ φασι δεῖν λέγειν</atticisticRemark>, 
+	<atticisticRemark type="recommendation">ἀλλὰ<w>Συμφοιτητήν</w>.</atticisticRemark>
+</entry>
+
+<entry n="12">
+	<entryHead>
+		<form>Φιλοτραφής</form>:
+	</entryHead>
+	<sense>
+		<synonym>ὃν <speaker>ἡ συνήθεια</speaker> <w>φιλότροφον</w> λέγει.</synonym>
+		<bibl><author>Εὐριπίδης</author> <title>Αὐγῇ</title>.</bibl>
+	</sense>
+</entry>
+
+</div1>
+
+<div1 type="part" n="Χ">
+
+<head>X</head>
+
+<entry n="1">
+	<entryHead>
+		<form>χρῆμα</form>:
+	</entryHead>
+	<sense>
+		<synonym><w>ἀργύριον</w>.</synonym>
+		<q>Ἀρίθμησον τὸ χρῆμα</q>,
+		<bibl><author>Ἡρόδοτος</author>.</bibl>
+	</sense>
+</entry>
+
+<entry n="2">
+	<entryHead>
+		<form>Χέρσα</form>:
+	</entryHead>
+	<sense>
+		<definition> τὰ μὴ γεωργούμενα.</definition>
+		<bibl><author>Αἰσχύλος</author> <title>Προμηθεῖ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="3">
+	<entryHead>
+		<form>Χολᾷν</form>:
+	</entryHead> 
+	<sense>
+		<synonym>τὸ <w>ὀργίζεσθαι</w>.</synonym>
+		<bibl><author>Ἀντιφάνης</author>.</bibl>
+	</sense>
+</entry>
+
+<entry n="4">
+	<entryHead>
+		<form>Χρωματίζειν</form>:
+	</entryHead> 
+	<bibl><author>Πλάτων</author> <title>Πολιτείᾳ</title>.</bibl>
+</entry>
+
+<entry n="5">
+	<entryHead>
+		<form>Χαλκίζειν</form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <phr>χαλκῷ κυβεύειν</phr>.</synonym>
+		<bibl><author>Ἄλεξις</author>.</bibl>
+	</sense>
+</entry>
+
+<entry n="6">
+	<entryHead>
+		<form>Χρήσασθαι</form>:
+	</entryHead> 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>δανείσασθαι</w>.</synonym>
+		<bibl><author>Ἀντιφάνης</author>.</bibl>
+	</sense>
+</entry>
+
+<entry n="7">
+	<entryHead>
+		<form>Χρῆται καλῶς τῷ σκέλει</form>:
+	</entryHead> 
+	<sense>
+		<definition>ἐπὶ τῶν παγκρατιαστῶν.</definition>
+	</sense>
+</entry>
+
+<entry n="8">
+	<entryHead>
+		<form>Χρονίσαι</form>:
+	</entryHead>
+	<sense>
+		<synonym>τὸ <w>βραδῦναι</w>.</synonym>
+		<bibl><author>Εὐριπίδης</author> <title>Ἡρακλεῖ</title>.</bibl>
+	</sense>
+</entry>
+</div1>
+
+<div1 type="part" n="Ψ">
+<head>Ψ</head>
+
+<entry n="1">
+	<entryHead>
+		<form>Ψυχαγωγεῖν</form>
+	</entryHead>: 
+	<sense>
+		<definition>τὸ <w>τέρπειν</w>, οὐ μόνον ἐπὶ τοῦ ἐξαπατῶντα πιπράσκειν.</definition>
+		<bibl><author>Πλάτων</author> <title>Φαίδρῳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="2">
+	<entryHead>
+		<form>Ψελλός</form>
+	</entryHead>: 
+	<sense>
+		<bibl><author>Αἰσχύλος</author> <title>Προμηθεῖ</title>.</bibl>
+		<definition>τέθεικε δὲ τὴν λέξιν ἐπὶ τοῦ <phr>σαφῶς μὴ εἰρημένου</phr>.</definition>
+	</sense>
+</entry>
+
+<entry n="3">
+	<entryHead>
+		<form type="phrase">Ψυχρὸς ἄνθρωπος</form>
+	</entryHead>: 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>δυσκίνητος</w>.</synonym>
+	</sense>
+</entry>
+
+<entry n="4">
+	<entryHead>
+		<form type="phrase">Ψήφισμα ἔθηκεν</form>
+	</entryHead>: 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἔγραψε</w>.</synonym>
+		<bibl><author>Κρατῖνος</author> <title>Ὥραις</title></bibl>,
+		<bibl><author>Πλάτων</author> <title>Ποιητῇ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="5">
+	<entryHead>
+		<form>Ψωμοκόλακες</form>
+	</entryHead>: 
+	<bibl><author>Φιλιππίδης</author> <title>Ἀνανευούσῃ</title>.</bibl>
+</entry>
+
+<entry n="6">
+	<entryHead>
+		<form>Ψαφαρόν</form>
+	</entryHead>: 
+	<sense>
+		<synonym>τὸ <w>ἁπαλόν</w>.</synonym> 
+		<bibl><author>Πλάτων</author> <title>Ποιητῇ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="7">
+	<entryHead>
+		<form>Ψέκτης</form>
+	</entryHead>: 
+	<sense>
+		<definition>ὁ πάντα ψέγων.</definition>
+		<bibl><author>Πλάτων</author> <title>Πολιτείᾳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="8">
+	<entryHead>
+		<form>Ψέλια</form>
+	</entryHead>: 
+	<sense>
+		<definition>τὰ τοῖς πήχεσιν, οὐ μόνον στρεπτά.</definition>
+		<bibl><author>Φρύνιχος.</author></bibl>
+	</sense>
+</entry>
+</div1>
+
+<div1 type="part" n="Ω">
+<head>Ω</head>
+
+<entry n="1">
+	<entryHead>
+		<form>Ὧδε</form>
+	</entryHead>: 
+	<sense>
+		<synonym>ἀντὶ τοῦ <w>ἐνθάδε</w>.</synonym>
+		<bibl><author>Πλάτων</author><title>Γοργίᾳ</title>.</bibl>
+	</sense>
+</entry>
+
+<entry n="2">
+	<entryHead>
+		<form>Ὡραΐζεσθαι</form>
+	</entryHead>: 
+	<bibl><author>Κρατῖνος</author> <title>Ὥραις</title></bibl>.
+</entry>
+
+<entry n="3">
+	<entryHead>
+		<form>Ὠιδικός</form>
+	</entryHead>:
+	<sense>
+		<synonym>ἀντὶ τοῦ <phr>εὖ ᾄδων</phr>.</synonym>
+	</sense>
+</entry>
+
+<entry n="4">
+	<entryHead>
+		<form>Ὠτοκάταξιν</form>
+	</entryHead>:
+	<sense>
+		<definition>τὸν συντετριμμένον τὸ οὖς.</definition>
+		<bibl><author>Ἀριστοφάνης</author> <title>Βαβυλωνίοις</title>.</bibl>
+	</sense>
+</entry>
+</div1>
+</body>
