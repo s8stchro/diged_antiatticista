@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+<body>
+<div1 type="part" n="A">
+<head>Α</head>
+  
+  <entry n="1">
+    <entryHead>
+      <target>ἀπὸ στόματος</target>
+    </entryHead> 
+    <entryBody>
+      <ref><author>Ξενοφῶν</author> ἐν τῇ <title>Ἀναβάσει</title></ref>, 
+      <ref><author>Πλάτων</author> <title>Θεαιτήτῳ</title></ref>.
+    </entryBody>
+  </entry>
+  
+  <entry n="2">
+    <entryHead>
+      <target>Ἀστή</target>
+    </entryHead> 
+    <entryBody>πᾶσα ἡ ἐξ ἡστινοσοῦν πόλεως, οὐ μόνον ἐξ Ἀθηνῶν.</entryBody>
+  </entry>
+  
+  <entry n="3">
+    <entryHead>
+      <target>Ἀθηναίαν</target>
+    </entryHead> 
+    <entryBody>οὐκ <w>Ἀττικήν</w>.
+    </entryBody>
+  </entry>
+  
+  <entry n="4">
+    <entryHead>
+      <target>Αὐτὸς αὑτόν</target>
+    </entryHead>
+    <entryBody>ἀντὶ τοῦ <w>ἐμαυτόν</w>.
+    </entryBody>
+  </entry>
+  
+  <entry n="5">
+    <entryHead>
+      <target>Ἀνέπεσεν</target>
+    </entryHead>
+    <entryBody>ἀντὶ τοῦ <w>ἀνεκλίθη</w>.</entryBody>
+  </entry>
+  
+  <entry n="6">
+    <entryHead>
+      <target>Ἀποκριθῆναι</target>
+    </entryHead> 
+    <entryBody>οὐκ <w>ἀποκρίνασθαι</w>.
+    </entryBody>
+  </entry>
+  
+  <entry n="7">
+    <entryHead>
+      <target>Ἄξιον</target>
+    </entryHead>
+    <entryBody>ἀντὶ τοῦ <w>εὔωνον</w>. 
+      <ref><author>Λυσίας</author> ἐν τῷ <title>κατὰ τῶν σιτοπωλῶν</title></ref>.
+    </entryBody>
+  </entry>
+  
+  <entry n="8">
+    <entryHead>
+      <target>Ἀκροᾶσαι σύ</target>
+    </entryHead> 
+    <entryBody>ἀντὶ τοῦ <w>ἀκροᾷ</w> ἢ <w>ἀκούεις</w>.</entryBody>
+  </entry>
+  
+  <entry n="9">
+    <entryHead>
+      <target>Ἀκληρίαν</target>
+    </entryHead> 
+    <entryBody>
+      <ref><author>Ἀντιφάνης</author> <title>Ἀδώνιδι</title>.</ref> 
+      <rleatedEntry>
+        <ref><author>ὁ αὐτὸς</author></ref> 
+        <target>εὐκλήρωμα</target> ἀντὶ τοῦ <w>κατόρθωμα</w>.
+      </rleatedEntry>
+    </entryBody>
+  </entry>
+  
+  <entry n="10">
+    <entryHead>
+      <target>Ἀνταποδοῦναι</target>, 
+      <target>ἀνταπαιτῆσαι</target>, 
+      <target>ἀνταμύνασθαι</target>
+    </entryHead>
+    <entryBody>
+      <ref><author>Ἡρόδοτος</author> <biblScope>πρώτῳ</biblScope>.</ref>
+    </entryBody>
+  </entry>
+  
+  <entry n="11">
+    <entryHead>
+      <target>Ἀστοργία</target>, 
+      <target>φιλοστοργία</target>, 
+      <target>στοργή</target>
+    </entryHead>
+    <entryBody>
+      <ref><author>Ἀντιφῶν</author> ἐν <biblScope>δευτέρῳ</biblScope> <title>περὶ τῆς ῥητορικῆς τέχνης</title>.</ref>
+    </entryBody>
+  </entry>
+  
+  <entry n="12">
+    <entryHead>
+      <target>Ἀγοράσαι</target>
+    </entryHead> 
+    <entryBody>ἀντὶ τοῦ <w>ὠνήσασθαι</w>, οὐκ ἐπὶ τοῦ <phr>ἐν ἀγορᾷ διατρίβειν</phr>. 
+      <ref><author>Δημοσθένης</author> <title>κατὰ Ἀριστογείτονος</title>.</ref>
+    </entryBody>
+  </entry>
+  
+  <entry n="13">
+    <entryHead>
+      <target>Αὐτός</target>
+    </entryHead> 
+    <entryBody>ἀντὶ τοῦ <phr>ὁ δεσπότης</phr>. 
+      <q>Αὐτὸς λέγει</q>, 
+      <q>αὐτὸς ἄρχεται</q>, 
+      <ref><author>Ἀριστοφάνης</author></ref>.
+    </entryBody>
+  </entry>
+  
+  <entry n="14">
+    <entryHead>
+      <target>Ἁμαρτεῖν καὶ ἀδικῆσαι</target>
+    </entryHead>
+    <entryBody>διαφόρως τάσσουσιν.</entryBody>
+  </entry>
+  
+  <entry n="15">
+    <entryHead>
+      <target>Ἁψιμαχεῖν:</target>
+    </entryHead> 
+    <entryBody>
+      <ref><author>Ὑπερείδης</author> ἐν τῷ <title>περὶ τῶν ὁρίων</title>.</ref> 
+      <relatedEntry>καὶ 
+        <phrase>ἁψίμαχον γερόντιον</phrase>.
+      </relatedEntry>
+    </entryBody>
+  </entry> 
+  
+  <entry n="16">
+    <entryHead>
+      <target>Ἀλετρίβανον</target>
+    </entryHead> 
+    <entryBody>ἀντὶ τοῦ <w>δοίδυκα</w>. 
+      <ref><author>Ἀριστοφάνης</author> <title>Εἰρήνῃ</title></ref> τρὶς κέχρηται τῇ λέξει.</entryBody>
+  </entry>
+  
+  <entry n="17">
+    <entryHead>
+      <target>Ἄγειν</target>
+    </entryHead> 
+    <entryBody>ἐπὶ τοῦ σταθμοῦ. 
+      <ref><author>Δημοσθένης</author> <title>κατὰ Τιμοκράτους</title>·</ref>
+      <q>Ὃς ἦγε δαρεικοὺς τριακοσίους.</q>
+    </entryBody>
+  </entry>
+  
+  <entry n="18">
+    <entryHead>
+      <target>Ἀργύρωμα</target>, 
+      <target>χρύσωμα</target>
+    </entryHead> 
+    <entryBody>οὐχὶ <w>ἀργυροῦν</w>, <w>χρυσοῦν</w>.</entryBody>
+  </entry> 
+  
+  <entry n="19">
+    <entryHead>
+      <target>Ἀργύρια</target>
+    </entryHead>: <entryBody>πληθυντικῶς, οὐχ ἑνικῶς. 
+      <ref><author>Πλάτων</author> <title>Κλεοφῶντι</title>.</ref>
+    </entryBody>
+  </entry>
+  
+  <entry n="20">
+    <entryHead>
+      <target>Ἀστράγαλοι</target>
+    </entryHead> 
+    <entryBody>ἀρσενικῶς, οὐχὶ θηλυκῶς. 
+      <ref><author>Πλάτων</author> <title>Θεαιτήτῳ</title>.</ref>
+    </entryBody>
+  </entry>
+  
+  <entry n="21">
+    <entryHead>
+      <target>Ἀθετεῖν</target>
+    </entryHead> 
+    <entryBody>φασὶν οὐ δεῖν λέγειν, ἀλλ’ <w>ἀναίρειν</w>. ἴασιν οὖν ὁ γραμματικὸς μέμφεται ἐπὶ τῇ λέξει Ἀρίσταρχον.</entryBody>
+  </entry>
+  
+  <entry n="22">
+    <entryHead>
+      <target>Ἀξιούμενος</target>
+    </entryHead>
+    <entryBody>
+      <w>παρακαλούμενος</w>. 
+      <relatedEntry>καὶ 
+        <target>ἀξίωμα</target> ἀντὶ τοῦ 
+        <w>παράκλησις</w>.
+      </relatedEntry>
+    </entryBody>
+  </entry>
+  
+  <entry n="23">
+    <entryHead>
+      <target>Αἰτεῖν καὶ αἰτεῖσθαι</target> διαφέρει·
+    </entryHead> 
+    <entryBody>
+      <q>οὐ πῦρ γὰρ αἰτῶν, οὐδὲ λοπάδ’ αἰτούμενος.</q> 
+      <w>αἰτεῖσθαι</w> γάρ φησι τὸν ἀποδιδόντα, τὸν δὲ μὴ ἀποδώσοντα <w>αἰτεῖν</w>. 
+      <ref><author>Ἄλεξις</author> δ’ <title>Ἐπικλήρῳ</title></ref> ἐκδιδόντος τινὸς θυγατέρα· 
+      <q>ἀλλ’ ἔγωγε, παῖ, δίδωμι· καὶ ποήσω πάνθ’ ὅσα οὗτος αἰτεῖται παρ’ ἡμῶν</q>.
+    </entryBody>
+  </entry>
+</div1>
+
+<div1 type="part" n="Μ">
+  
+  <head>Μ</head>
+  
+  <entry n="1">
+    <entryHead>
+      <target>Μέθυσον</target>
+    </entryHead> 
+    <entryBody>οὔ φασι δεῖν λέγειν, ἀλλὰ <w>μεθύσην</w> τὴν γυναῖκα.</entryBody>
+  </entry>
+  
+  <entry n="2">
+    <entryHead>
+      <target>Μνηστεύειν</target>
+    </entryHead>
+    <entryBody> ἀντὶ τοῦ <w>μνηστεύεσθαι</w>. 
+      <relatedEntry>καὶ <w>μνήστευσιν</w> τὴν μνηστείαν.</relatedEntry>
+    </entryBody>
+  </entry>
+  
+  <entry n="3">
+    <entryHead><w>μιαρόν</w> λέγοντες</entryHead> 
+    <entryBody><w>μιαρίαν</w> οὔ φασι δεῖν λέγειν.</entryBody>
+  </entry>
+</div1>
+</body>
+</text>
+  
+
