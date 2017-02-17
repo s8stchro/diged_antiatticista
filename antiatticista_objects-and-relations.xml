@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+<!-- 
+  Models:
+  ἀντὶ τοῦ with one author-work
+  <entry n="α_">
+      <targetElement id="01-0-0" type="" n=""/>
+      <relation id="01-0-0" type="" direction="#01-0-0To#01-0-0" n=""/>
+      <addressingElement id="01-0-0" type="" introduced-by="" n=""/>
+      <relation id="01-0-0" type="" direction="#01-0-0To#01-0-0" n=""/>
+      <author id="01-0-0" ref="" n=""/>
+      <relation id="01-0-0" type="" direction="#01-0-0To#01-0-0" n=""/>
+      <relation id="01-0-0" type="" direction="#01-0-0To#01-0-0" n=""/>
+      <work id="01-0-0" referred-by="" ref="" n=""/>
+    </entry>
+  -->
+  
+  <!--nodes are elements with various names, edges are always the
+    element: "relation". The type of relation is specified in the
+    @type the nodes connected in the @direction. Every element
+    has a @n in which the greek text appear as value. Many of relation
+    elements have empty @n, that means no greek text expresses the relation, that is the
+    relation is result of my interpretation.-->
+  <body>
+    
+    <entry id="01-001)" n="α_1">
+      <targetElement id="01-001-01" type="phrase" n="ἀπὸ στόματος"/>
+      <relation id="01-001-02" type="isUsedBy" direction="#01-001-1To#01-001-03" n=""/>
+      <author id="01-001-03" referred-by="name" ref="Xenophon" n="Ξενοφῶν"/>
+      <relation id="01-001-04" type="isQuotedIn" direction="#01-001-01To#01-001-05" n="ἐν"/>
+      <relation id="01001-05" type="isAuthorOf" direction="#01-001-03To#01-001-06" n=""/>
+      <work id="01-001-06" referred-by="title" introduced_by="τῇ" ref="Anabasis" n="Ἀναβάσει"/>
+      <relation id="01-001-07" type="isAsyndeticallyConnectedTo" direction="#01-001-03To#01-001-08" n=""/>
+      <relation id="01001-08" type="isUsedBy" direction="#01-001-01To#01-001-09" n=""/>
+      <author id="01-001-09" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-001-10" type="isQuotedIn" direction="#01-001-01To#01-001-12" n=""/>
+      <relation id="01-001-11" type="isAuthorOf" direction="#01-001-08To#01-001-12" n=""/>
+      <work id="01-001-12" referred-by="title" ref="Theaetetus" n="Θεαιτήτῳ"/>
+    </entry>
+    
+    <entry id="01-002)" n="α_2">
+      <targetElement id="01-002-01" type="lemma" n="ἀστή"/>
+      <relation id="01-002-02" type="hasMeaning" direction="#01-002-01To#01-002-03" n=""/>
+      <addressingElement id="01-002-03" type="phrase" introduced-by="" n="πᾶσα ἡ ἐκ ἡστινοσοῦν πόλεως"/>
+      <relation id="01-002-04" type="isParatacticallyConnectedTo" subtype="not_only" direction="#01-002-03To#01-002-06" n="οὐ μόνον"/>
+      <relation id="01-002-05" type="hasMeaning" direction="#01-002-01To#01-002-06" n=""/>
+      <addressingElement id="01-002-06" type="definition" introduced-by="" n="ἐξ Ἀθηνῶν"/>
+    </entry>
+    
+    <entry id="01-003)" n="α_3">
+      <targetElement id="01-003-01" type="lemma" n="Ἀθηναίαν"/>
+      <relation id="01-003-02" type="isInNegativeRelationTo" direction="#01-003-01To#01-003-03" n="οὐκ"/>
+      <!-- I must revise the relation "isInNegativeRelationTo" for the οὐκ! -->
+      <addressingElement id="01-003-03" type="lemma" introduced-by="" n="Ἀττικήν"/>
+    </entry>
+    
+    <entry id="01-004)" n="α_4">
+      <targetElement id="01-004-01" type="inflected-form" n="αὐτὸς αὑτόν"/>
+      <relation id="01-004-02" type="insteadOf_morphology" direction="#01-004-01To#01-004-03" n="ἀντί"/>
+      <addressingElement id="01-004-03" type="inflected-from" introduced-by="τοῦ" n="ἐμαυτόν"/>
+    </entry>
+    
+    <entry id="01-005)" n="α_5">
+      <targetElement id="01-005-01" type="inflected-form" n="αὑτοῦ"/>
+      <relation id="01-005-02" type="insteadOf_morphology" direction="#01-005-01To#01-005-03" n="ἀντί"/>
+      <addressingElement id="01-005-03" type="inflected-form" introduced-by="τοῦ" n="σαυτοῦ"/>
+    </entry>
+    
+    <entry id="01-006)" n="α_6">
+      <targetElement id="01-006-01" type="inflected-form" n="αὑτῷ"/>
+      <relation id="01-006-02" type="insteadOf_morphology" direction="#01-006-01To#01-006-03" n="ἀντί"/>
+      <addressingElement id="01-006-03" type="inflected-form" introduced-by="τοῦ" n="ἐμαυτῷ"/>
+    </entry>
+    
+    <entry id="01-007)" n="α_7">
+      <targetElement id="01-007-01" type="lemma" n="ἀκράχολος"/>
+      <relation id="01-007-02" type="isUsedBy" direction="#01-007-01To#01-007-03" n=""/>
+      <author id="01-007-03" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-007-04" type="isQuotedIn" direction="#01-007-01To#01-007-06" n=""/>
+      <relation id="01-007-05" type="isAuthorOf" direction="#01-007-03To#01-007-06"/>
+      <work id="01-007-06" referred-by="book_number-title" ref= "Respublica 2" n="β´ Πολιτείας"/>
+      <!-- perhaps necessary to keep book number and title separated -->
+    </entry>
+    
+    <entry id="01-008)" n="α_8">
+      <targetElement id="01-008-01" type="inflected-form" n="ἀνέπεσεν"/>
+      <relation id="01-008-02" type="insteadOf_semantics" direction="#01-008-01To#01-008-03" n="ἀντί"/>
+      <addressingElement id="01-008-03" type="inflected-form" introduced-by="τοῦ" n="ἀνεκλίθη"/>
+    </entry>
+    
+    <entry id="01-009)" n="α_9">
+      <targetElement id="01-009-01" type="phrase" n="ἀεί ποτε"/>
+      <relation id="01-009-02" type="isUsedBy" direction="#01-009-01To#01-009-03" n=""/>
+      <author id= "01-009-03" referred-by="name" n="Θουκυδίδης" ref="Thukydides"/>
+      <relation id="01-009-04" type="isQuotedIn" direction="#01-009-01To#01-009-06" n=""/>
+      <relation id="01-009-05" type="isAuthorOf" direction="#01-009-03To#01-009-06"/>
+      <work id="01-009-06" referred-by="book_number" ref= "Historiae 4" n="δ´"/>
+    </entry>
+    
+    <entry id="01-010)" n="α_10">
+      <targetElement id="01-010-01" type="inflected-form" n="ἀποκριθῆναι"/>
+      <relation id="01-010-02" type="isInNegativeRelationTo" direction="#01-010-01To#01-010-03" n="οὐ"/>
+      <addressingElement id="01-010-03" type="inflected-form" n="ἀποκρίνασθαι"/>
+    </entry>
+    
+    <entry id="01-011)" n="α_11">
+      <targetElement id="01-011-01" type="phrase" n="αἰσχυντηλὸς εἶ"/>
+      <relation id="01-011-02" type="isUsedBy" direction="#01-011-01To#01-011-03" n=""/>
+      <author id="01-011-03" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-011-04" type="isQuotedIn" direction="#01-011-01To#01-011-06" n=""/>
+      <relation id="01-011-05" type="isAuthorOf" direction="#01-011-03To#01-011-06"/>
+      <work id="01-011-06" referred-by="title" ref= "Gorgias" n="Γοργίᾳ"/>
+    </entry>
+    
+    <entry id="01-012)" n="α_12">
+      <targetElement id="01-012-01" type="phrase" n="ἀπὸ πρώτης"/>
+      <relation id="01-012-02" type="insteadOf_syntax" direction="#01-012-01To#01-012-03" n="ἀντί"/>
+      <addressingElement id="01-012-03" type="lemma" introduced-by="τοῦ" n="πρῶτον"/>
+    </entry>
+    
+    <entry id="01-013)" n="α_13">
+      <targetElement id="01-013-01" type="lemma" n="ἄξιον"/>
+      <relation id="01-013-02" type="insteadOf_semantics" direction="#01-013-01To#01-013-03" n="ἀντί"/>
+      <addressingElement id="01-013-03" type="lemma" introduced-by="τοῦ" n="εὔωνον"/>
+      <relation id="01-013-04" type="isUsedBy" direction="#01-013-01To#01-013-05" n=""/>
+      <author id="01-013-05" referred-by="name" n="Λυσίας" ref="Lysias"/>
+      <relation id="01-013-06" type="isQuotedIn" direction="#01-013-01To#01-013-08" n="ἐν"/>
+      <relation id="01-013-07" type="isAuthorOf" direction="#01-013-05To#01-013-08"/>
+      <work id="01-013-08" referred-by="title" introduced-by="τῷ" n="κατὰ τῶν σιτοπολῶν"/>
+    </entry>
+    
+    <entry id="01-014)" n="α_14">
+      <targetElement id="01-014-01" type="lemma" n="ἀξία"/>
+      <relation id="01-014-02" type="insteadOf_semantics" direction="#01-014-01To#01-014-03" n="ἀντί"/>
+      <addressingElement id="01-014-03" type="lemma" introduced-by="τοῦ" n="ἀξίωμα"/>
+      <relation id="01-014-04" type="isUsedBy" direction="#01-014-01To#01-014-05" n=""/>
+      <author id="01-014-05" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-014-06" type="isQuotedIn" direction="#01-014-01To#01-014-08" n="ἐν"/>
+      <relation id="01-014-07" type="isAuthorOf" direction="#01-014-05To#01-014-08" n=""/>
+      <work id="01-014-08" referred-by="genre-incipit" introduced-by="τῇ" n="ἐπιστολῇ ἧς ἡ ἀρχή «περὶ μὲν τῶν κατ᾽ ἐμαυτόν»"/>
+    </entry>
+    
+    <entry id="01-015)" n="α_15">
+      <targetElement id="01-016-01" type="lemma" n="ἀκούειν"/>
+      <relation id="01-016-02" type="insteadOf_semantics" direction="#01-016-01To#01-016-03" n="ἀντί"/>
+      <addressingElement id="01-016-03" type="lemma" introduced-by="τοῦ" n="πειθαρχεῖν"/>
+      <relation id="01-016-04" type="isUsedBy" direction="#01-016-01To#01-016-05" n=""/>
+      <author id="01-016-05" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-016-06" type="isQuotedIn" direction="#01-016-01To#01-016-08" n=""/>
+      <relation id="01-016-07" type="isAuthorOf" direction="#01-016-05To#01-016-08"/>
+      <work id="01-016-08" referred-by="title" introduced-by="" n="κατὰ Λεπτίνου"/>
+    </entry>
+    
+    <entry id="01-016)" n="α_16">
+      <targetElement id="01-016-01" type="phrase" n="ἀκούειν καλῶς"/>
+      <relation id="01-016-02" type="insteadOf_semantics" direction="#01-016-01To#01-016-03" n="ἀντί"/>
+      <addressingElement id="01-016-03" type="lemma" introduced-by="τοῦ" n="εὐφημεῖται"/>
+      <relation id="01-016-04" type="isUsedBy" direction="#01-016-01To#01-016-05" n=""/>
+      <author id="01-016-05" referred-by="name" ref="Herodotos" n="Ἡρόδοτος"/>
+      <relation id="01-016-06" type="isQuotedIn" direction="#01-016-01To#01-016-08" n=""/>
+      <relation id="01-016-07" type="isAuthorOf" direction="#01-016-05To#01-016-08" n=""/>
+      <work id="01-016-08" referred-by="book_number" ref="Historiae 3" n="γ´"/>
+    </entry>
+    
+    <entry id="01-017)" n="α_17">
+      <targetElement id="01-017-01" type="inflected-form" n="ἀκροάσαι σύ"/>
+      <relation id="01-017-02" type="insteadOf_morphology" direction="#01-017-01To#01-017-03" n="ἀντί"/>
+      <addressingElement id="01-017-03" type="inflected-form" introduced-by="τοῦ" n="ἀκροᾷ"/>
+      <relation id="01-017-04" type="isParatacticallyConnectedTo" subtype="or" direction="#01-017-03To#01-017-06" n="ἢ"/>
+      <relation id="01-017-05" type="insteadOf_semantics" direction="#01-017-01To#01-017-06" n="inferred_ἀντί"/>
+      <addressingElement id="01-017-06" type="inflected-form" introduced-by="" n="ἀκούεις"/>
+    </entry>
+    
+    <entry id="01-018)" n="α_18">
+      <targetElement id="01-018-01" type="lemma" n="αἱρετίζειν"/>
+      <relation id="01-018-02" type="insteadOf_lexicology" direction="#01-018-01To#01-018-03" n="ἀντί"/>
+      <addressingElement id="01-018-03" type="lemma" introduced-by="τοῦ" n="αἱρεῖσθαι"/>
+    </entry>
+    
+    <entry id="01-019)" n="α_19">
+      <targetElement id="01-019-01" type="lemma" n="ἄκληρος"/>
+      <relation id="01-019-02" type="insteadOf_semantics" direction="#01-019-01To#01-019-03" n="ἀντί"/>
+      <addressingElement id="01-019-03" type="lemma" introduced-by="τοῦ" n="ἀτυχής"/>      
+    </entry>
+    
+    <entry id="01-020)" n="α_20">
+      <relation id="01-020-01" type="isInSameWordFamilyAs" direction="#01-020-01To#01-019-01"/>
+      <!-- NB relation between the tragetElement of different entries! -->
+      <targetElement id="01-020-02" type="lemma" n="ἀκληρίαν"/>
+      <relation id="01-020-03" type="isUsedBy" direction="#01-020-02To#01-020-04" n=""/>
+      <!-- actually implied in the nominative of the authorReference's name: λέγει -->
+      <author id="01-020-04" referred-by="name" ref="Antiphanes" n="Ἀντιφάνης"/>
+      <relation id="01-020-05" type="isQuotedIn" direction="#01-020-02To#01-020-07" n=""/>
+      <relation id="01-020-06" type="isAuthorOf" direction="#01-020-04To#01-020-07" n=""/>
+      <work id="01-020-07" referred-by="title" ref="Adonis" n="Ἀδώνιδι" />
+      <relation id="01-020-08" type="isRelatedToEntry" direction="#01_020Το#01-020-09" n=""/>
+      <relatedEntry id="01-020-09">
+        <relation id="01-020-10" type="isInSameWordFamilyAs" direction="#01-020-11To#01-020-02" n=""/>
+        <relatedTarget id="01-020-11" type="lemma" n="εὐκλήρωμα"/>
+        <relation id="01-020-12" type="isUsedBy" direction="#01-020-11To#01-020-13" n=""/>
+        <author id="01-020-13" type="reference_string" ref="Antiphanes" n="ὁ αὐτός"/>
+        <relation id="01-020-14" type="insteadOf_semantics" direction="#01-020-11To#01-020-15" n="ἀντί"/>
+        <relatedAddressingElement id="01-020-15" type="lemma" introduced-by="τοῦ" n="κατόρθωμα"/>
+      </relatedEntry>
+    </entry>
+    
+    <entry id="01-021)" n="α_21">
+      <targetElement id="01-021-01" type="lemma" n="ἀκμήν"/>
+      <relation id="01-021-02" type="insteadOf_semantics" direction="#01-021-01To#01-021-03" n="ἀντί"/>
+      <addressingElement id="01-021-03" type="lemma" introduced-by="τοῦ" n="ἔτι"/>
+      <relation id="01-021-04" type="isUsedBy" direction="#01-021-01To#01-021-05" n=""/>
+      <author id="01-021-05" referred-by="name" ref="Hypereides" n="Ὑπερείδης"/>
+      <relation id="01-021-06" type="isQuotedIn" direction="#01-021-01To#01-021-08" n=""/>
+      <relation id="01-021-07" type="isAuthorOf" direction="#01-021-05To#001-021-08" n=""/>
+      <work id="01-021-08" referred-by="title" n="ὑπὲρ Κρατίνου"/>
+    </entry>
+ 
+    <entry id="01-022)" n="α_22">
+      <targetElement id="01-022-01" type="lemma" n="ἀνταποδοῦναι"/>
+      <targetElement id="01-022-02" type="lemma" n="ἀνταπαιτῆσαι"/>
+      <targetElement id="01-022-03" type="lemma" n="ἀνταμύνασθαι"/>
+      <!-- How do I express that all targetElements have a common morphological feature: compounds with ἀντί as frst element? -->
+      <relation id="01-022-04" type="hasCommonMorphologicalFeatureAs" direction="#01-022-01To#01-022-02" n=""/>
+      <relation id="01-022-05" type="hasCommonMorphologicalFeatureAs" direction="#01-022-01To#01-022-03" n=""/>
+      <relation id="01-022-06" type="isUsedBy" direction="#01-022-01To#01-022-09" n=""/>
+      <relation id="01-022-07" type="isUsedBy" direction="#01-022-02To#01-022-09" n=""/>
+      <relation id="01-022-08" type="isUsedBy" direction="#01-022-03To#01-022-09" n=""/>
+      <author id="01-022-09" referred-by="name" ref="Herodotos" n="Ἡρόδοτος"/>
+      <relation id="01-022-10" type="isQuotedIn" direction="#01-022-01To#01-022-14" n=""/>
+      <relation id="01-022-11" type="isQuotedIn" direction="#01-022-02To#01-022-14" n=""/>
+      <relation id="01-022-12" type="isQuotedIn" direction="#01-022-03To#01-022-14" n=""/>
+      <relation id="01-022-13" type="isAuthorOf" direction="#01-022-09To#01-022-14#" n=""/>
+      <work id="01-022-14" referred-by="book_number" ref="Historiae 1" n="α´"/>
+    </entry>
+    
+    <entry id="01-023)" n="α_23">
+      <targetElement id="01-023-01" type="lemma" n="ἀνταπολαμβάνειν"/>
+      <relation id="01-023-02" type="isUsedBy" direction="#01-23-01To#01-23-03" n=""/>
+      <author id="01-023-03" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-023-04" type="isQuotedIn" direction="#01-023-01To#01-023-05" n="ἐν"/>
+      <work id="01-023-05" referred-by="title" introduced-by="τῷ" n="κατὰ Λεπτίνου"/>
+    </entry>
+    
+    <entry id="01-024)" n="α_24">
+      <targetElement id="01-024-01" type="lemma" n="ἀντιλογῆσαι"/>
+      <relation id="01-024-02" type="isUsedBy" direction="#01-024-01To#01-024-03" n=""/>
+      <author id="01-024-03" referred-by="name" ref="Aristophanes Com." n="Ἀριστοφάνης"/>
+      <relation id="01-024-04" type="isQuotedIn" direction="#01-024-01To#01-024-06" n=""/>
+      <relation id="01-024-05" type="isAuthorOf" direction="#01-024-03To#01-024-07" n=""/>
+      <work id="01-024-06" referred-by="title" ref="Nubes" n="Νεφάλαις"/>
+    </entry>
+    
+    <entry id="01-025)" n="α_25">
+      <targetElement id="01-025-01" type="lemma" n="ἀστοργία"/>
+      <targetElement id="01-025-02" type="lemma" n="φιλοστοργία"/>
+      <targetElement id="01-025-03" type="lemma" n="στοργή"/>
+      <relation id="01-025-04" type="isCompoundOf" direction="#01-025-01To#01-025-03"/>
+      <relation id="01-025-05" type="isCompoundOf" direction="#01-025-02To#01-025-03"/>
+      <relation id="01-025-06" type="isUsedBy" direction="#01-025-01To#0087" n="#01-025-09-in-nominative"/>
+      <relation id="01-025-07" type="isUsedBy" direction="#01-025-02To#0087" n="#01-025-09-in-nominative"/>
+      <relation id="01-025-08" type="isUsedBy" direction="#01-025-03To#0087" n="#01-025-09-in-nominative"/>
+      <author id="01-025-09" referred-by="name" ref="Antiphon" n="Ἀντιφῶν"/>
+      <relation id="01-025-10" type="isQuotedIn" direction="#01-025-01To#01-025-14" n="ἐν"/>
+      <relation id="01-025-11" type="isQuotedIn" direction="#01-025-02To#01-025-14" n="ἐν"/>
+      <relation id="01-025-12" type="isQuotedIn" direction="#01-025-03To#01-025-14" n="ἐν"/>
+      <relation id="01-025-13" type="isAuthorOf" direction="#01-025-09To#01-025-14" n=""/>
+      <work id="01-025-14" referred-by="book_number-title" n="β´ Περὶ τῆς ῥητορικῆς τέχνης"/>
+    </entry>
+    
+    <entry id="01-026)" n="α_26">
+      <targetElement id="01-026-01" type="lemma" n="ἀγοράσαι"/>
+      <relation id="01-026-02" type="insteadOf_semantics" direction="#01-026-01To#01-026-03" n="ἀντί"/>
+      <addressingElement id="01-026-03" type="lemma" introduced-by="τοῦ" n="ὠνήσασθαι"/>
+      <relation id="01-026-04" type="isAsyndeticallyConnectedTo" direction="#01-026-03To#01-026-06" n=""/>
+      <relation id="01-026-05" type="hasMeaningNot" direction="#01-026-01To#01-026-06" n="οὐκ ἐπὶ"/>
+      <addressingElement id="01-026-06" type="phrase" introduced-by="τοῦ" n="ἐν ἀγορᾷ διατρίβειν"/>
+      <relation id="01-026-07" type="isUsedBy" direction="#01-026-01To#01-026-08" n=""/>
+      <author id="01-026-08" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-026-09" type="isQuotedIn" direction="#01-026-01To#01-026-11" n=""/>
+      <relation id="01-026-10" type="isAuthorOf" direction="#01-026-08To#01-026-11"/>
+      <work id="01-026-11" referred-by="title" ref="contra Aristogitonem" n="κατὰ Ἀριστογείτονος"></work>
+    </entry>
+    
+    <entry id="01-027)" n="α_27">
+      <targetElement id="01-027-01" type="lemma" n="ἀνελευθερία"/>
+      <relation id="01-027-02" type="isUsedBy" direction="#01-027-01To#01-027-02" n=""/>
+      <author id="01-027-03" referred-by="name" ref="Platon Phil." n="Πλάτων"></author>
+      <relation id="01-027-04" type="isQuotedIn" direction="#01-027-01To#01-027-06" n=""/>
+      <relation id="01-027-05" type="isAuthorOf" direction="#01-027-03To#01-027-06" n=""/>
+      <work id="01-027-06" referred-by="title-book_number" n="Πολιτείας β´"/>   
+    </entry>
+    
+    <entry id="01-028)" n="α_28">
+      <targetElement id="01-028-01" type="lemma" n="ἀναπειρίαν"/>
+      <relation id="01-028-02" type="isUsedBy" direction="#01-028-01To#01-028-03" n=""/>
+      <author id="01-028-03" referred-by="name" ref="Aristophanes Com." n="Ἀριστοφάνης"/>
+      <relation id="01-028-04" type="isQuotedIn" direction="#01-028-01To#01-028-06" n=""/>
+      <relation id="01-028-05" type="isAuthorOf" direction="#01-028-03To#01-028-06" n=""/>
+      <work id="01-028-06" referred-by="title" n="Πλούτῳ"></work>
+    </entry>
+    
+    <entry id="01-029)" n="α_29">
+      <targetElement id="01-029-01" type="lemma" n="ἀμελετησία"/>
+      <relation id="01-029-02" type="isUsedBy" direction="#01-029-01To#01-029-03" n=""/>
+      <author id="01-029-03" referred-by="name" ref="Platon Phil." n="Πλάτων"></author>
+      <relation id="01-029-04" type="isQuotedIn" direction="#01-029-01To#01-029-06" n=""/>
+      <relation id="01-029-05" type="isAuthorOf" direction="#01-029-03To#01-029-06" n=""/>
+      <work id="01-029-06" referred-by="title" ref="Theaetetus" n="Θεαιτήτῳ"/>
+    </entry>
+    
+    <entry id="01-030)" n="α_30">
+      <targetElement id="01-030-01" type="lemma" n="ἀχρηστίαν"/>
+      <relation id="01-030-02" type="isUsedBy" direction="#01-030-01To#01-030-03" n=""/>
+      <author id="01-030-03" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-030-04" type="isQuotedIn" direction="#01-030-01To#01-030-06" n=""/>
+      <relation id="01-030-05" type="isAuthorOf" direction="#01-030-03To#01-030-06" n=""/>
+      <work id="01-030-06" referred-by="title-book_number" n="α´ Πολιτείας"/>
+    </entry>
+
+    <entry id="01-031)" n="α_31">
+      <targetElement id="01-031-01" type="lemma" n="ἀγαθουργίαν"/>
+      <relation id="01-031-02" type="isUsedBy" direction="#01-031-01To#01-031-03" n=""/>
+      <author id="01-031-03" referred-by="name" ref="Herodotos" n="Ἡρόδοτος"/>
+      <relation id="01-031-04" type="isQuotedIn" direction="#01-031-01To#01-031-06" n=""/>
+      <relation id="01-031-05" type="isAuthorOf" direction="#01-031-03To#01-031-06" n=""/>
+      <work id="01-031-06" referred-by="book_number" n="α´"/>
+    </entry>
+   
+    <entry id="01-032)" n="α_32">
+      <targetElement id="01-032-01" type="lemma" n="ἀσυνεσία"/>
+      <relation id="01-032-02" type="isUsedBy" direction="#01-032-01To#01-032-03" n=""/>
+      <author id="01-032-03" referred-by="name" ref="Thukydides" n="Θουκυδίδης"/>
+      <relation id="01-031-04" type="isQuotedIn" direction="#01-032-01To#01-032-06" n=""/>
+      <relation id="01-031-05" type="isAuthorOf" direction="#01-032-03To#01-032-06" n=""/>
+      <work id="01-032-06" referred-by="book_number" n="γ´"/>
+    </entry>
+    
+    
+    <entry id="01-033)" n="α_33">
+      <targetElement id="01-033-01" type="lemma" n="ἀντιβολία"/>
+      <relation id="01-033-02" type="isUsedBy" direction="#01-033-01To#01-033-03" n=""/>
+      <author id="01-033-03" referred-by="name" ref="Thukydides" n="Θουκυδίδης"/>
+      <relation id="01-033-04" type="isQuotedIn" direction="#01-033-01To#01-033-06" n=""/>
+      <relation id="01-033-05" type="isAuthorOf" direction="#01-033-03To#01-033-06" n=""/>
+      <work id="01-033-06" referred-by="book_number" n="ζ´"/>
+    </entry>
+    
+    <entry id="01-034)" n="α_34">
+      <targetElement id="01-034-01" type="lemma" n="ἀθεραπευσία"/>
+      <relation id="01-034-02" type="isUsedBy" direction="#01-034-01To#01-034-03" n=""/>
+      <author id="01-034-03" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-034-04" type="isQuotedIn" direction="#01-034-01To#01-034-06" n=""/>
+      <relation id="01-034-05" type="isAuthorOf" direction="#01-034-03To#01-034-06" n=""/>
+      <work id="01-033-06" referred-by="title-book_number" n="Πολιτείας γ´"/>
+    </entry>
+    
+    <entry id="01-035)" n="α_35">
+      <targetElement id="01-035-01" type="lemma" n="ἀλιμενία"/>
+      <relation id="01-035-02" type="isUsedBy" direction="#01-035-01To#01-035-03" n=""/>
+      <author id="01-035-03" referred-by="name" ref="Hypereides" n="Ὑπερείδης"/>
+      <relation id="01-035-04" type="isQuotedIn" direction="#01-035-01To#01-035-06" n="ἐν"/>
+      <relation id="01-035-05" type="isAuthorOf" direction="#01-035-03To#01-035-06"/>
+      <work id="01-035-06" referred-by="title" introduced-by="τῷ" n="περὶ τοῦ Πολύευκτον στρατηγεῖν"/>      
+    </entry>
+    
+    <entry id="01-036)" n="α_36">
+      <targetElement id="01-036-01" type="lemma" n="ἀπειθαρχία"/>
+      <relation id="01-036-02" type="isUsedBy" direction="#01-036-01To#01-036-03" n=""/>
+      <author id="01-036-03" referred-by="name" ref="Antiphon" n="Ἀντιφῶν"/>
+      <relation id="01-036-04" type="isQuotedIn" direction="#01-036-01To#01-036-06" n=""/>
+      <relation id="01-036-05" type="isAuthorOf" direction="#01-036-03To#01-036-06"/>
+      <work id="01-036-06" referred-by="title" n="Πολιτικῷ"/>   
+    </entry>
+    
+    <entry id="01-037)" n="α_37">
+      <targetElement id="01-037-01" type="lemma" n="αἰσχροκερδής"/>
+      <relation id="01-037-02" type="isUsedBy" direction="#01-037-01To#01-037-03" n=""/>
+      <author id="01-037-03" referred-by="name" ref="Euripides" n="Εὐριπίδης"/>
+      <relation id="01-037-04" type="isQuotedIn" direction="#01-037-01To#01-037-06" n=""/>
+      <relation id="01-037-05" type="isAuthorOf" direction="#01-037-03To#01-037-06"/>
+      <work id="01-037-06" referred-by="title" n="Ἀνδρομάχῃ"/>
+    </entry>
+    
+    <entry id="01-038)" n="α_38">
+      <targetElement id="01-038-01" type="lemma" n="ἀψυχίαν"/>
+      <relation id="01-038-02" type="insteadOf_lexicology" n="ἀντί"/>
+      <addressingElement id="01-038-03" type="lemma" introduced-by="τοῦ" n="δειλίαν"/>
+      <relation id="01-038-04" type="isUsedBy" direction="#01-038-01To#01-038-05"/>
+      <author id="01-038-05" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-038-06" type="isQuotedIn" direction="#01-038-01To#01-038-08" n=""/>
+      <relation id="01-038-07" type="isAuthorOf" direction="#01-038-05To#01-038-08" n=""/>
+      <work id="01-038-08" referred-by="title" n="Γοργίᾳ"/>
+    </entry>
+    
+    <entry id="01-039)" n="α_39">
+      <targetElement id="01-039-01" type="lemma" n="ἀληθεστέρως"/>
+      <relation id="01-039-02" type="isUsedBy" direction="#01-039-01To#01-039-03" n=""/>
+      <author id="01-039-03" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-039-04" type="isQuotedIn" direction="#01-039-01To#01-039-06" n=""/>
+      <relation id="01-039-05" type="isAuthorOf" direction="#01-039-03To#01-039-06" n=""/>
+      <work id="01-037-06" referred-by="book_number-title" n="γ´ Πολιτείας"/>
+    </entry>
+    
+    <entry id="01-040)" n="α_40">
+      <targetElement id="01-040-01" type="lemma" n="ἀμειμόνως"/>
+      <relation id="01-040-02" type="isUsedBy" direction="#01-040-01To#01-040-03" n=""/>
+      <author id="01-040-03" referred-by="name" ref="Aristophanes" n="Ἀριστοφάνης"/>
+      <relation id="01-040-04" type="isQuotedIn" direction="#01-040-01To#01-040-06" n=""/>
+      <relation id="01-040-05" type="isAuthorOf" direction="#01-040-03To#01-040-06" n=""/>
+      <work id="01-040-06" referred-by="title" n="Θεσμοφοριαζούσαις"/>
+    </entry>
+    
+    <entry id="01-041)" n="α_41">
+      <targetElement id="01-041-01" type="lemma" n="αἰτίαμα"/>
+      <relation id="01-041-02" type="isUsedBy" direction="#01-041-01To#01-041-03" n=""/>
+      <author id="01-041-03" referred-by="name" ref="Aeschylus" n="Αἰσχύλος"/>
+      <relation id="01-041-04" type="isQuotedIn" direction="#01-041-01To#01-041-06" n=""/>
+      <relation id="01-041-05" type="isAuthorOf" direction="#01-041-03To#01-041-06" n=""/>
+      <work id="01-041-06" referred-by="title" n="Προμηθεῖ Δεσμώτῃ"/>
+    </entry>
+    
+    <entry id="01-042)" n="α_42">
+      <targetElement id="01-042-01" type="lemma" n="ἀνθρωπινότερον"/>
+      <relation id="01-042-02" type="isUsedBy" direction="#01-042-01To#01-042-03" n=""/>
+      <author id="01-042-03" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-042-04" type="isQuotedIn" direction="#01-042-01To#01-042-06" n="ἐν"/>
+      <relation id="01-042-05" type="isAuthorOf" direction="#01-042-03To#01-042-06" n=""/>
+      <work id="01-042-06" referred-by="title" introduced-by="τῷ" n="περὶ τοῦ στεφάνου"/>
+    </entry>
+    
+    <entry id="01-043)" n="α_43">
+      <targetElement id="01-043-01" type="lemma" n="ἁλιότερον"/>
+      <relation id="01-043-02" type="isUsedBy" direction="#01-043-01To#01-043-03" n=""/>
+      <author id="01-043-03" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-043-04" type="isQuotedIn" direction="#01-043-01To#01-043-06" n=""/>
+      <relation id="01-043-05" type="isAuthorOf" direction="#01-043-03To#01-043-06" n=""/>
+      <work id="01-043-06" referred-by="title" n="κατὰ Λεπτίνου"/>
+    </entry>
+    
+    <entry id="01-044)" n="α_44">
+      <targetElement id="01-044-01" type="lemma" n="αὐτός"/>
+      <relation id="01-044-02" type="insteadOf_semantics" direction="#01-044-01To#01-044-03" n="ἀντί"/>
+      <addressingElement id="01-044-03" type="phrase" introduced-by="τοῦ" n="ὁ δεσπότης"/>
+      <relation id="01-044-04" type="isInQuotation" direction="#01-044-01#01-044-06" n=""/>
+      <relation id="01-044-05" type="isInQuotation" direction="#01-044-01#01-044-07" n=""/>
+      <quotation id="01-044-06" type="phrase" n="αὐτὸς λέγει"/>
+      <quotation id="01-044-07" type="phrase" n="αὐτὸς ἄρχεται"/>
+      <relation id="01-044-08" type="isUsedBy" direction="#01-044-01To#01-044-11" n=""/>
+      <relation id="01-044-09" type="isAuthorOf" direction="#01-044-11To#01-044-06" n=""/>
+      <relation id="01-044-10" type="isAuthorOf" direction="#01-044-11To#01-044-07" n=""/>
+      <author id="01-044-11" referred-by="name" ref="Aristophanes Com." n="Ἀριστοφάνης"/>
+    </entry>
+    
+    <entry id="01-045)" n="α_45">
+      <targetElement id="01-045-01" type="lemma" n="ἀποκεφαλίζειν"/>
+      <relation id="01-045-02" type="insteadOf_semantics" direction="#01-045-01To#01-045-03" n="ἀντί"/>
+      <addressingElement id="01-045-03" type="lemma" introduced-by="τοῦ" n="ἀποτυμπανίζειν"/>
+    </entry>
+    
+    <entry id="01-046)" n="α_46">
+      <targetElement id="01-046-01" type="lemma" n="ἀληθεῖν"/>
+      <relation id="01-046-02" type="isInNegativeRelationTo" direction="#01-046-01To#01-046-03" n="οὐκ"/>
+      <addressingElement id="01-046-03" n="ἀλεῖν"/>
+    </entry>
+    
+    <entry id="01-047)" n="α_47">
+      <targetElement id="01-047-01" type="lemma" n="ἀναρίθμητος"/>
+      <relation id="01-047-02" type="isUsedBy" direction="#01-047-01To#01-047-03" n=""/>
+      <author id="01-047-03" referred-by="name" ref="Herodotos" n="Ἡρόδοτος"/>
+      <relation id="01-047-04" type="isQuotedIn" direction="#01-047-01To#01-047-06" n=""/>
+      <relation id="01-047-05" type="isAuthorOf" direction="#01-047-03To#01-047-06" n=""/>
+      <work id="01-047-06" referred-by="book_number" n="α´"/>
+    </entry>
+    
+    <entry id="01-048)" n="α_48">
+      <targetElement id="01-048-01" type="lemma" n="ἀπαρασκεύαστον"/>
+      <relation id="01-048-02" type="isUsedBy" direction="#01-048-01To#01-048-03" n=""/>
+      <author id="01-048-03" referred-by="name" ref="Antiphon" n="Ἀντιφῶν"/>
+      <relation id="01-048-04" type="isQuotedIn" direction="#01-048-01To#01-048-06" n=""/>
+      <relation id="01-048-05" type="isAuthorOf" direction="#01-048-03To#01-048-06" n=""/>
+      <work id="01-048-06" referred-by="book_number-title" n="γ´ Ῥητορικῆς τέχνης"/>
+    </entry>
+    
+    <entry id="01-049)" n="α_49">
+      <targetElement id="01-049-01" type="lemma" n="ἀμάθητος"/>
+      <relation id="01-049-02" type="insteadOf_lexicology" n="ἀντί"/>
+      <addressingElement id="01-049-03" type="lemma" introduced-by="τοῦ" n="ἀμαθής"/>
+      <relation id="01-049-04" type="isUsedBy" direction="#01-049-01To#01-049-05"/>
+      <author id="01-049-05" referred-by="name" ref="Phrynichus Com." n="Φρύνιχος"/>
+      <relation id="01-049-06" type="isQuotedIn" direction="#01-049-01To#01-049-08" n=""/>
+      <relation id="01-049-07" type="isAuthorOf" direction="#01-049-05To#01-049-08" n=""/>
+      <work id="01-049-08" referred-by="title" n="Κόννῳ"/>
+    </entry>
+    
+    <entry id="01-050)" n="α_50">
+      <targetElement id="01-050-01" type="lemma" n="ἀφθόνητος"/>
+      <relation id="01-050-02" type="isUsedBy" direction="#01-050-01To#01-050-03" n=""/>
+      <author id="01-050-03" referred-by="name" ref="Pindarus" n="Πινδαρος"/>
+      <relation id="01-050-04" type="isQuotedIn" direction="#01-050-01To#01-050-06" n=""/>
+      <relation id="01-050-05" type="isAuthorOf" direction="#01-050-03To#01-050-06" n=""/>
+      <work id="01-050-06" referred-by="title" n="Ὀλυμπιονίκαις"/>
+    </entry>
+    
+    <entry id="01-051)" n="α_51">
+      <targetElement id="01-051-01" type="lemma" n="ἀποφυγγάνει"/>
+      <relation id="01-051-02" type="isUsedBy" direction="#01-051-01To#01-051-03" n=""/>
+      <author id="01-051-03" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-051-04" type="isQuotedIn" direction="#01-051-01To#01-051-06" n=""/>
+      <relation id="01-051-05" type="isAuthorOf" direction="#01-051-03To#01-051-06" n=""/>
+      <work id="01-051-06" referred-by="title" n="Κατὰ Ἀριστοκράτους"/>
+    </entry>
+    
+    <entry id="01-052)" n="α_52">
+      <targetElement id="01-052-01" type="inflected-form" n="ἀποτετύχηται"/>
+      <relation id="01-052-02" type="insteadOf_morphology" n="ἀντί"/>
+      <addressingElement id="01-052-03" type="inflected-form" introduced-by="τοῦ" n="ἀποτέτευκται"/>
+      <relation id="01-052-04" type="isUsedBy" direction="#01-052-01To#01-052-05"/>
+      <author id="01-052-05" referred-by="name" ref="Anaxippus" n="Ἀνάξιππος"/>
+      <relation id="01-052-06" type="isQuotedIn" direction="#01-052-01To#01-052-08" n=""/>
+      <relation id="01-052-07" type="isAuthorOf" direction="#01-052-05To#01-052-08" n=""/>
+      <work id="01-052-08" referred-by="title" n="Κεραυνῷ"/>
+    </entry>
+    
+    <entry id="01-053)" n="α_53">
+      <targetElement id="01-053-01" type="lemma" n="ἁμαρτία"/>
+      <relation id="01-053-02" type="isUsedBy" direction="#01-053-01To#01-053-03" n=""/>
+      <author id="01-053-03" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-053-04" type="isQuotedIn" direction="#01-053-01To#01-053-06" n=""/>
+      <relation id="01-053-05" type="isAuthorOf" direction="#01-053-03To#01-053-06" n=""/>
+      <work id="01-053-06" referred-by="title_book-number" n="Πολιτείας α´"/>
+      <relation id="01-053-07" type="isQuotedIn" direction="#01-053-01To#01-053-10" n=""/>
+      <relation id="01-053-08" type="isAuthorOf" direction="#01-053-03To#01-053-10" n=""/>
+      <relation id="01-053-09" type="isParatacticallyConnectedTo" direction="#01-053-06To#01-053-10" n="καὶ"/>
+      <work id="01-053-10" referred-by="book_number" n="β´"/>
+      <relation id="01-053-11" type="isAsyndeticallyConnectedTo" direction="#01-053-03To#01-053-12" n=""/>
+      <author id="01-053-12" referred-by="name" ref="Herodotos" n="Ἡρόδοτος"/>
+      <relation id="01-053-13" type="isQuotedIn" direction="#01-053-01To#01-053-15" n=""/>
+      <relation id="01-053-14" type="isAuthorOf" direction="#01-053-12To#01-053-15" n=""/>
+      <work id="01-053-15" referred-by="book-number" n="α´"/>
+      <relation id="01-053-16" type="isQuotedIn" direction="#01-053-01To#01-053-19" n=""/>
+      <relation id="01-053-17" type="isAuthorOf" direction="#01-053-12To#01-053-19" n=""/>
+      <relation id="01-053-18" type="isParatacticallyConnectedTo" direction="#01-053-15To#01-053-19" n="καὶ"/>
+      <work id="01-053-19" referred-by="book_number" n="γ´"/>
+    </entry>
+    
+    <entry id="01-054)" n="α_54">
+      <targetElement id="01-054-01" type="lemma" n="ἁμαρτεῖν"/>
+      <relation id="01-054-02" type="hasDifferentMeaningFrom" direction="#01-054-01To#01-054-03" responsible="the ancients" n="διαφόρως τάσσουσιν"/>
+      <targetElement id="01-054-03" type="lemma" n="ἀδικῆσαι"/>
+      <!--annotation quite far away from text: ἁμαρτεῖν καὶ ἀδικῆσαι·
+	διαφόρως τάσσουσιν. The connective καί is not represented:
+	actually in the annotation I reorganize the entry, without
+	head and body. And I use a differet syntax. Would it be
+	possible to express: <the ancients> <use> <a> and <b> <in
+	different meaning>? How?-->
+    </entry>
+    
+    <entry id="01-055)" n="α_55">
+      <targetElement id="01-055-01" type="lemma" n="ἁμαρτωλία"/>
+      <relation id="01-055-02" type="isUsedBy" direction="#01-055-01To#01-055-03" n=""/>
+      <author id="01-055-03" referred-by="name" ref="Aristophanes" n="Ἀριστοφάνης"/>
+      <relation id="01-055-04" type="isQuotedIn" direction="#01-055-01To#01-055-06" n=""/>
+      <relation id="01-055-05" type="isAuthorOf" direction="#01-055-03To#01-055-06" n=""/>
+      <work id="01-055-06" referred-by="title" n="Εἰρήνῃ"/>
+      <relation id="01-055-07" type="isUsedBy" direction="#01-055-01To#01-055-09" n=""/>
+      <relation id="01-055-08" type="isAsyndeticallyConnectedTo" direction="#01-055-03To#01-055-09" n=""/>
+      <author id="01-055-09" referred-by="name" ref="Eupolis" n="Εὔπολις"/>
+      <relation id="01-055-10" type="isQuotedIn" direction="#01-055-01To#01-055-12" n=""/>
+      <relation id="01-055-11" type="isAuthorOf" direction="#01-055-09To#01-055-12" n=""/>
+      <work id="01-055-12" referred-by="title" n="Μαρικᾷ"/>
+    </entry>
+    
+    <entry id="01-056)" n="α_56">
+      <targetElement id="01-056-01" type="lemma" resp="Meineke" n="ἀνασεῖσαι"/>
+      <relation id="01-056-02" type="insteadOf_semantics" direction="#01-056-01To#01-056-03" n="ἀντί"/>
+      <addressingElement id="01-056-03" type="lemma" introduced-by="τοῦ" n="ἀναπεῖσαι"/>
+      <relation id="01-056-04" type="isUsedBy" direction="#01-056-01To#01-056-05" n=""/>
+      <author id="01-056-05" referred-by="name" ref="Kantharos" n="Κάνθαρος"/>
+      <relation id="01-056-06" type="isQuotedIn" direction="#01-056-01To#01-056-08" n=""/>
+      <relation id="01-056-07" type="isAuthorOf" direction="#01-056-04To#01-056-08" n=""/>
+      <work id="01-056-08" referred-by="title" n="Τηρεῖ"/>
+    </entry>
+    
+    <entry id="01-057)" n="α_57">
+      <targetElement id="01-057-01" type="lemma" n="ἀψιμαχεῖν"/>
+      <relation id="01057-02" type="isUsedBy" direction="#01-057-01To#01-057-0309" n="#01-057-03_in_nominative"/>
+      <author id="01-057-03" referred-by="name" ref="Hypereides" n="Ὑπερείδης"/>
+      <relation id="01-057-04" type="isQuotedIn" direction="#01-057-01To#01-057-06" n="ἐν"/>
+      <relation id="01-057-05" type="isAuthorOf" direction="#01-057-03To#01-057-06" n=""/>
+      <work id="01-057-06" referred-by="title" introduced-by="τῷ" n="Περὶ τῶν ὁρίων"/>
+      <relation id="01-057-07" type="isRelatedToEntry" direction="#01_057To01-057-08" n="καί"/>
+      <relatedEntry id="01-057-08">
+        <relation id="01-057-09" type="isInSameWordFamilyAs" direction="#01-057-01To#01-057-10" n=""/>
+        <relatedTarget id="01-057-10" type="phrase" n="ἁψίμαχον γερόντιον"/>
+        <!--or:
+	  <relatedTargetElement type="lemma" n="" form="ἁψίμαχος"/>
+	  <relation type="isIncludedInQuotation"
+	  direction:"relatedTarget:quotation"/>
+	  <quotation type="phrase" n="ἁψίμαχον γερόντιον"/> or
+	  <relatedAddressingElement type="phrase" n="ἁψίμαχον
+	  γερόντιον"/> if we do not want to mark the phrase as a
+	  quotation as editors do. In any case such an
+      annotation includes quite a lot of interpretation and makes
+      explicit elements and relations that do not appear at all in the text. -->
+      </relatedEntry>
+    </entry>
+    
+    <entry id="01-058)" n="α_58">
+      <targetElement id="01-058-01" type="lemma" n="ἀλετρίβανον"/>
+      <relation id="01-058-02" type="insteadOf_lexicology" direction="#01-058-01To#01-058-03" n="ἀντί"/>
+      <addressingElement id="01-058-03" type="lemma" introduced-by="τοῦ" n="δοίδυκα"/>
+      <relation id="01-058-04" type="isUsedBy" frequencey="τρίς" direction="#01-058-01To#01-058-05" n="κέχρηται τῇ λέξει"/>
+      <!-- CTRL @frequency! -->
+      <author id="01-058-05" referred-by="name" n="Ἀριστοφάνης" ref="Aristophanes Com."/>
+      <relation id="01-058-06" type="isQuotedIn" direction="#01-058-01To#01-058-08" n=""/>
+      <relation id="01-058-07" type="isAuthorOf" direction="#01-058-05To#01-058-08" n=""/>
+      <work id="01-058-08" referred-by="title" n="Εἰρήνῃ"/>
+    </entry>
+    
+    <entry id="01-059)" n="α_59">
+      <targetElement id="0124" type="lemma" n="ἄγειν"/>
+      <relation id="0125" type="hasApplicationDomain" direction="#0124To#0126" n="ἐπί"/>
+      <!-- NB: I differentiate between ἐπί = hasMeaning and ἐπὶ = hasApplication Domain! Does this differentiation make sense? -->
+      <addressingElement id="0126" type="concept" introduced-by="τοῦ" n="σταθμοῦ"/>
+      <relation id="0127" type="isUsedBy" direction="#0124To#0128" n=""/>
+      <author id="0128" referred-by="name" n="Δημοσθένης" ref="Demosthenes"/>
+      <relation id="0129" type="isQuotedIn" direction="#0124To#0131" n=""/>
+      <relation id="0130" type="isAuthorOf" direction="#0128To#0131"/>
+      <work id="0131" referred-by="title" n="Κατὰ Τιμοκράτους"/>
+      <relation id="0132" type="isQuotedIn" direction="#0124To#0134" n=""/>
+      <relation id="0133" type="hasPassage" direction="#0131To#0134" n=""/>
+      <quotation id="0134" type="clause" n="ὃς ἦγεν δαρεικοὺς τριακοσίους"/>
+    </entry>
+    
+    <entry id="01-060)" n="α_60">
+      <targetElement id="01-060-01" type="lemma" n="ἀργύρωμα"/>
+      <targetElement id="01-060-02" type="lemma" n="χρύσωμα"/>
+      <relation id="01-060-03" type="isAsyndeticallyConnectedTo" direction="#01-060-01To#01-060-02"/>
+      <relation id="01-060-04" type="isInNegativeRelationTo" direction="#01-060-01To#01-060-06" n="οὐχί"/>
+      <relation id="01-060-05" type="isInNegativeRelationTo" direction="#02-060-01To#01-060-07" n="οὐχί"/>
+      <addressingElement id="01-060-06" type="lemma" n="ἀργυροῦν"/>
+      <addressingElement id="01-060-07" type="lemma" n="χρυσοῦν"/> 
+    </entry>
+    
+    <entry id="01-061)" n="α_61">
+      <targetElement id="01-061-01" type="lemma" n="ἀθυρόγλωσσος"/>
+      <relation id="01-061-02" type="isUsedBy" direction="#01-061-01To#01-061-03" n=""/>
+      <author id="01-061-03" referred-by="name" ref="Euripides" n="Εὐριπίδης"/>
+      <relation id="01-061-04" type="isQuotedIn" direction="#01-061-01To#01-061-06" n=""/>
+      <relation id="01-061-05" type="isAuthorOf" direction="#01-061-03To#01-061-06" n=""/>
+      <work id="01-061-06" referred-by="title" n="Ὀρέστῃ"/>
+    </entry>
+    
+    <entry id="01-062)" n="α_62">
+      <targetElement id="01-062-01" type="lemma" n="ἀργύρια"/>
+      <relation id="01-062-02" type="isCommentedIn" direction="#01-062-01To#01-062-03" n=""/>
+      <addressingElement id="01-062-03" type="remark_morphology" n="πληθυντικῶς, οὐχ ἐνικῶς"/>
+      <relation id="01-062-04" type="isUsedBy" direction="#01-062-01To#01-062-05" n=""/>
+      <author id="01-062-05" ref="Platon Com." n="Πλάτων"/>
+      <relation id="01-062-06" type="isQuotedIn" direction="#01-062-01To#01-062-08" n=""/>
+      <relation id="01-062-07" type="isAuthorOf" direction="#01-062-05To#01-062-08" n=""/>
+      <work id="01-062-08" referred-by="title" n="Κλεοφῶντι"/>
+    </entry>
+    
+    <entry id="01-063)" n="α_63">
+      <targetElement id="01-063-01" type="lemma" n="ἀριστητικός"/>
+      <relation id="01-063-02" type="insteadOf_lexicology" direction="#01-063-01To#01-063-03" n="ἀντί"/>
+      <addressingElement id="01-063-03" type="phrase" introduced-by="τοῦ" n="ἔθος ἔχων ἀριστᾶν"/>
+      <relation id="01-063-04" type="isUsedBy" direction="#01-063-01To#01-063-05" n=""/>
+      <author id="01-063-05" ref="Eupolis" n="Εὔπολις"/>
+      <relation id="01-063-06" type="isQuotedIn" direction="#01-063-01To#01-063-08" n=""/>
+      <relation id="01-063-07" type="isAuthorOf" direction="#01-063-05To#01-063-08" n=""/>
+      <work id="01-063-08" referred-by="title" n="Δήμοις"/>
+    </entry>
+    
+    <entry id="01-064)" n="α_64">
+      <targetElement id="01-064-01" type="lemma" n="ἀστράγαλοι"/>
+      <relation id="01-064-02" type="isCommentedIn" direction="#01-064-01To#01-064-03" n=""/>
+      <addressingElement id="01-064-03" type="remark_morphology" n="πληθυντικῶς, οὐχ ἐνικῶς"/>
+      <relation id="01-064-04" type="isUsedBy" direction="#01-064-01To#01-064-05" n=""/>
+      <author id="01-064-05" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-064-06" type="isQuotedIn" direction="#01-064-01To#01-064-08" n=""/>
+      <relation id="01-064-07" type="isAuthorOf" direction="#01-064-05To#01-064-08" n=""/>
+      <work id="01-064-08" referred-by="title" n="Θεαιτήτῳ"/>
+    </entry>
+    
+    <entry id="01-065)" n="α_65">
+      <targetElement id="01-65-01" type="inflected-form" n="ἀποδεδημηκότος"/>
+    </entry>
+    
+    <entry id="01-066)" n="α_66">
+      <targetElement id="01-066-01" type="unknown" n="unknown"/>
+      <relation id="01-066-02" type="isUsedBy" direction="#01-066-01To#01-066-03" n=""/>
+      <author id="01-066-03" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-066-04" type="isQuotedIn" n="#01-066-01To#01-066-06"/>
+      <relation id="01-066-05" type="isAuthorOf" n="#01-066-03To#01-066-06"/>
+      <work id="01-066-06" referred-by="title" n="Κατὰ Λεπτίνου"/>
+      <relation id="01-066-07" type="isAsyndeticallyConnectedTo" direction="#01-066-03To#01-066-09" n=""/>
+      <relation id="01-066-08" type="isUsedBy" direction="#01-066-01To#01-066-09" n=""/>
+      <author id="01-066-09" ref="Xenophon" n="Ξενοφῶν"/>
+      <relation id="01-066-10" type="isQuotedIn" direction="#01-066-01To#01-066-12" n=""/>
+      <relation id="01-066-11" type="isAuthorOf" direction="" n="#01-066-09To#01-066-12"/>
+      <work id="01-066-12" referred-by="title-book_number" n="Ἀπομνημονευμάτων γ´"></work>
+    </entry>
+    
+    <entry id="01-067)" n="α_67">
+      <targetElement id="01-067-01" type="phrase" n="ἀμύνει τοὺς πολεμίους"/>
+      <relation id="01-067-02" type="insteadOf_morphology" direction="#01-067-01To#01-067-03" n="ἀντί"/>
+      <addressingElement id="01-067-03" type="inflected-form" introduced-by="τοῦ" n="ἀμύνεται"/>
+      <relation id="01-067-04" type="isUsedBy" direction="#01-067-01To#01-067-05" n=""/>
+      <author id="01-067-05" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-067-06" type="isQuotedIn" direction="#01-067-01To#01-067-08" n=""/>
+      <relation id="01-067-07" type="isAuthorOf" direction="#01-067-05To#01-067-08" n=""/>
+      <work id="01-067-08" referred-by="title" ref="Phaedrus" n="Φαίδρῳ"/>
+    </entry>
+    
+    <entry id="01-068)" n="α_68">
+      <targetElement id="01-068-01" type="lemma" n="ἀπαρτί"/>
+      <relation id="01-068-02" type="insteasOf_lexicology" direction="#01-068-01To#01-068-03" n="ἀντὶ"/>
+      <addressingElement id="01-068-03" type="phrase" introduced-by="τοῦ" n="ἄρτι ἀπὸ νῦν"/>
+      <relation id="01-068-04" type="isUsedBy" direction="#01-068-01To#01-068-05" n=""/>
+      <author id="01-068-05" ref="Platon Com." n="Πλάτων"/>
+      <relation id="01-068-06" type="isQuotedIn" direction="#01-068-01To#01-068-08" n=""/>
+      <relation id="01-068-07" type="isAuthorOf" direction="#01-068-05To#01-068-08" n=""/>
+      <work id="01-068-08" referred-by="title" ref="Sophistai" n="Σοφισταῖς"/>
+    </entry>
+    
+    <entry id="01-069)" n="α_69"><!-- A very very problamtic case. I don't know how to express it! -->
+      <targetElement id="01-069-01" type="lemma" n="ἀθετεῖν"/>
+      <relation/>
+    </entry>
+    
+    <entry id="01-070)" n="α_70">
+      <targetElement id="01-070-01" type="lemma" n="ἀναπτερῶσαι"/>
+      <relation id="01-070-02" type="isUsedBy" direction="#01-070-01To#01-070-03" n=""/>
+      <author id="01-070-03" ref="Xenophon" n="Ξενοφῶν"/>
+      <relation id="01-070-04" type="isQuotedIn" direction="#01-070-01To#01-070-06"/>
+      <relation id="01-070-05" type="isAuthorOf" direction="#01-070-03To#01-070-06"/>
+      <work id="01-070-06" referred-by="title" ref="Symposium" n="Συμποσίῳ"/>
+    </entry>
+    
+    <entry id="01-071)" n="α_71">
+      <targetElement id="01-071-01" type="phrase" n="ἀναβολὴν ᾠδῆς"/>
+      <relation id="01-071-02" type="isInSameWordFamilyAs" direction="#01-071-01To#01-071-04" n="ὡς"/>
+      <relation id="01-071-03" type="isInSameWordFamilyAs" direction="#01-071-01To#01-071-0" n="ὡς"/>
+      <addressingElement id="01-071-04" type="phrase" n="ἄνω βάλε ἡμῖν"/>
+      <author id="01-071-06" ref="unknown"/>
+      <relation id="01-071-05" type="isAuthorOf" direction="#01-071-06To#01-071-04" n="λέγουσιν"/>
+      <addressingElement id="01-071-06" type="phrase" n="ἤτοι ὁ φορμίζων ἀνεβάλλετο"/>
+      <relation id="01-071-07" type="isParatacticallyConnectedTo" direction="#01-071-06To#01-071-08" n="καὶ"/>
+      <author id="01-071-08" ref="Homerus" referred-by="descriptive_reference" n="ὁ ποιητής"/>
+      <relation id="01-071-09" type="isAuthorOf" direction="#01-071-08To#01-071-06" n=""/>
+    </entry>
+    
+    <entry id="01-072)" n="α_72">
+      <targetElement id="01-072-01" type="inflected-form" n="αἰδέσεως"/>
+      <relation id="01-072-02" type="insteadOf_lexicology" direction="#01-072-01To#01-072-03"/>
+      <targetElement id="01-072-03" type="inflected-form" introduced_by="τοῦ" n="αἰδέσεως"/>
+      <relation id="01-072-04" type="isUsedBy" direction="#01-072-01To#01-072-05"/>
+      <author id="01-072-05" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-072-06" type="isQuotedIn" direction="#01-072-0To#01-072-08" n="ἐν"/>
+      <relation id="01-072-07" type="isAuthorOf" direction="#01-072-05To#01-072-08" n=""/>
+      <work id="01-072-08" referred-by="title" ref="In Midiam" introduced-by="τῷ" n="Κατὰ Μειδίου"></work>
+    </entry>
+    
+    <entry id="01-073)" n="α_73">
+      <targetElement id="01-073-01" type="lemma" n="ἀδημοσύνη"/>
+      <relation id="01-073-02" type="isUsedBy" direction="#01-073-01To#01-073-03" n=""/>
+      <author id="01-073-03" ref="Xenophon" referred-by="name" n="Ξενοφῶν"/>
+      <relation id="01-073-04" type="isQuotedIn" direction="#01-073-01To#01-073-06" n=""/>
+      <relation id="01-073-05" type="isAuthorOf" direction="#01-073-03To#01-073-06" n=""/>
+      <work id="01-073-06" referred-by="title" ref="Memorabilia" n="Ἀπομνημονεύμασιν"/>
+    </entry>
+    
+    <entry id="01-074)" n="α_74">
+      <targetElement id="01-074-01" type="inflected-form" n="ἀφθονέστερον"/>
+      <relation id="01-074-02" type="isUsedBy" direction="#01-074-01To#01-074-03" n=""/>
+      <author id="01-074-03" ref="Pindarus" referred-by="name" n="Πίνδαρος"/>
+      <relation id="01-074-04" type="isQuotedIn" direction="#01-074-01To#01-074-06" n=""/>
+      <relation id="01-074-05" type="isAuthorOf" direction="#01-074-03To#01-074-06" n=""/>
+      <work id="01-074-06" referred-by="corpus_description" ref="Epinikoi" n="Ἐπινίκοις"/>
+      <!--CTRL the description "title" for Ἐπινίκοις. It is a actually a more general description of a corpus-->
+    </entry>
+    
+    <entry id="01-075)" n="α_75">
+      <targetElement id="01-075-01" type="inflected-form" n="ἀρχαιέστερον"/>
+      <relation id="01-075-02" type="isUsedBy" direction="#01-075-01To#01-075-03" n=""/>
+      <author id="01-075-03" ref="Pindarus" referred-by="name" n="Πίνδαρος"/>
+      <relation id="01-075-04" type="isQuotedIn" direction="#01-075-01To#01-075-06" n=""/>
+      <relation id="01-075-05" type="isAuthorOf" direction="#01-075-03To#01-075-06" n=""/>
+      <work id="01-075-06" referred-by="corpus-description" ref="Hymnoi" n="Ὕμνοις"/>
+    </entry>
+    
+    <entry id="01-076)" n="α_76">
+      <targetElement id="01-076-01" type="lemma" n="ἀνισῶσαι"/>
+      <relation subtype="01-076-01" type="hasMeaning" direction="#01-076-01To#01-076-03" n="ἐπί"/>
+      <addressingElement id="01-076-03" type="phrase" introduced-by="τοῦ" n="πλεῖον ἐγχέαι πιεῖν τῷ ὕστερον ἐλθόντι"/>
+    </entry>
+    
+    <entry id="01-077)" n="α_77">
+      <targetElement id="01-077-01" type="lemma" n="ἀκακίαν"/>
+      <relation id="01-077-02" type="insteadOf_lexicology" direction="#01-077-01To#01-077-03" n=""/>
+      <addressingElement id="01-077-03" type="lemma" introduced-by="τοῦ" n="ἁπλότητα"/>
+    </entry>
+    
+    <entry id="01-078)" n="α_78">
+      <targetElement id="01-078-01" type="inflected-form" n="ἀφελοῦμαι"/>
+      <relation id="01-078-02" type="insteadOf_morphology" direction="#01-078-01To#01-078-03" n="ἀντί"/>
+      <targetElement id="01-078-03" type="inflected-form" introduced_by="τοῦ" n="ἀφαιρήσομαι"/>
+      <relation id="01-078-04" type="isUsedBy" direction="#01-078-01To#01-078-05" n=""/>
+      <author id="01-078-05" referred-by="name" ref="Timostratus" n="Τιμόστρατος"/>
+      <relation id="01-078-06" type="isQuotedIn" direction="#01-078-01To#01-078-08" n=""/>
+      <relation id="01-078-07" type="isAuthorOf" direction="#01-078-05To#01-078-08" n=""/>
+      <work id="01-078-08" referred-by="title" ref="Philodespotes" n="Φιλοδεσπότῃ"/>
+    </entry>
+    
+    <entry id="01-079)" n="α_79">
+      <targetElement id="01-079-01" type="lemma" n="ἁλυκόν"/>
+      <relation id="01-079-02" type="insteadOf_lexicology" direction="#01-079-01To#01-079-03" n="ἀντί"/>
+      <targetElement id="01-079-03" type="lemma" introduced_by="τοῦ" n="ἁλμυρόν"/>
+      <relation id="01-079-04" type="isUsedBy" direction="#01-079-01To#01-079-05" n=""/>
+      <author id="01-079-05" referred-by="name" ref="Aristophanes" n="Ἀριστοφάνης"/>
+      <relation id="01-079-06" type="isQuotedIn" direction="#01-079-01To#01-079-08" n=""/>
+      <relation id="01-079-07" type="isAuthorOf" direction="#01-079-05To#01-079-08" n=""/>
+      <work id="01-079-08" referred-by="title" ref="Babylonioi" n="Βαβυλωνίοις"/>
+    </entry>
+    
+    <entry id="01-080)" n="α_80">
+      <targetElement id="01-080-01" type="lemma" n="ἀσχάλλειν"/>
+      <relation id="01-080-02" type="isUsedBy" direction="#01-080-01To#01-080-03" n=""/>
+      <author id="01-075-03" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-080-04" type="isQuotedIn" direction="#01-080-01To#01-080-06" n=""/>
+      <relation id="01-080-05" type="isAuthorOf" direction="#01-080-03To#01-080-06" n=""/>
+      <work id="01-080-06" referred-by="title" ref="In Midiam" n="Κατὰ Μειδίου"/>
+    </entry>
+    
+    <entry id="01-081)" n="α_81">
+      <targetElement id="01-081-01" type="lemma" n="ἀνελπίστως"/>
+      <relation id="01-081-02" type="insteadOf_lexicology" direction="#01-081-01To#01-081-03" n="ἀντί"/>
+      <targetElement id="01-081-03" type="lemma" introduced_by="τοῦ" n="ἀδοκήτως"/>
+      <relation id="01-081-04" type="isUsedBy" direction="#01-081-01To#01-081-05" n=""/>
+      <author id="01-081-05" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-081-06" type="isQuotedIn" direction="#01-081-01To#01-081-08" n=""/>
+      <relation id="01-081-07" type="isAuthorOf" direction="#01-081-05To#01-081-08" n=""/>
+      <work id="01-081-08" referred-by="title" ref="De Corona" n="Περὶ τοῦ στεφάνου"/>
+    </entry>
+    
+    <entry id="01-082)" n="α_82">
+      <targetElement id="01-082-01" type="lemma" n="ἀνώτερον"/>
+      <relation id="01-082-02" type="insteadOf_morphology" direction="#01-082-01To#01-082-03" n="ἀντί"/>
+      <targetElement id="01-082-03" type="lemma" introduced_by="τοῦ" n="ἀνωτέρω"/>
+      <relation id="01-082-04" type="isUsedBy" direction="#01-082-01To#01-082-05" n=""/>
+      <author id="01-082-05" referred-by="name" ref="Demosthenes" n="Δημοσθένης"/>
+      <relation id="01-082-06" type="isQuotedIn" direction="#01-082-01To#01-082-08" n=""/>
+      <relation id="01-082-07" type="isAuthorOf" direction="#01-082-05To#01-082-08" n=""/>
+      <work id="01-082-08" referred-by="title" ref="De Corona" n="Περὶ τοῦ στεφάνου"/>
+    </entry>
+    
+    <entry id="01-083)" n="α_83">
+      <targetElement id="01-083-01" type="inflected-form" n="ἀρεστός"/>
+      <relation id="01-083-02" type="insteadOf_morphology" direction="#01-083-01To#01-083-03" n="ἀντί"/>
+      <targetElement id="01-083-03" type="lemma" introduced_by="τοῦ" n="᾽αρέσκων"/>
+      <relation id="01-083-04" type="isUsedBy" direction="#01-083-01To#01-083-05" n=""/>
+      <author id="01-083-05" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+      <relation id="01-083-06" type="isQuotedIn" direction="#01-083-01To#01-083-08" n=""/>
+      <relation id="01-083-07" type="isAuthorOf" direction="#01-083-05To#01-083-08" n=""/>
+      <work id="01-083-08" referred-by="title" ref="Phaedrus" n="Φαίδρῳ"/>
+    </entry>
+    
+    <entry id="01-084)" n="α_84">
+      <targetElement id="01-084-01" type="inflected-form" n="ἀξιούμενος"/>
+      <relation id="01-084-02" type="insteadOf_lexicology" direction="#01-084-01To#01-084-03" n="inferred_ἀντί"/>
+      <addressingElement id="01-084-03" type="inflected-form" introduced-by="" n="παρακαλούμενος"/>
+      <relation id="01-084-04" type="isParatacticallyConnectedTo" direction="#01-084-01To#01-084-06" n="καί"/>
+      <relation id="01-084-05" type="isInSameWordFamilyAs" direction="#01-084-01To#01-084-06" n=""/>
+      <targetElement id="01-084-06" type="lemma" n="ἀξίωμα"/>
+      <relation id="01-084-07" type="insteadOf_lexicology" direction="#01-084-06To#01-084-08" n="ἀντί"/>
+      <addressingElement id="01-084-08" type="lemma" introduced-by="τοῦ" n="παράκλησις"/>
+      <relation id="01-084-09" type="isInSameWordFamilyAs" direction="#01-084-013To#01-071-08" n=""/>
+    </entry>
+    
+    <entry id="01-085)" n="α_85">
+      <targetElement id="01-085-01" type="phrase" n="ἀνὰ μέρος"/>
+      <relation id="01-085-02" type="insteadOf_semantics" direction="#01-085-01To#01-085-03" n="ἀντί"/>
+      <addressingElement id="01-085-03" type="phrase" introduced-by="τοῦ" n="ἐν μέρει"/>
+      <relation id="01-085-04" type="isUsedBy" direction="#01-085-01To#01-085-05" n=""/>
+      <author id="01-085-05" referred-by="name" ref="Euripides" n="Εὐριπίδης"/>
+      <relation id="01-085-06" type="isQuotedIn" direction="#01-085-01To#01-085-08" n=""/>
+      <relation id="01-085-07" type="isAuthorOf" direction="#01-085-05To#01-085-08" n=""/>
+      <work id="01-085-08" referred-by="title" ref="Phoenissae" n="Φοινίσσαις"/>
+    </entry>
+    
+    <entry id="01-086)" n="α_86">
+      <targetElement id="01-086-01" type="phrase" n="ἀνὰ μέσον"/>
+      <relation id="01-086-02" type="insteadOf_semantics" direction="#01-086-01To#01-086-03" n="ἀντί"/>
+      <addressingElement id="01-086-03" type="phrase" introduced-by="τοῦ" n="ἐν μέσῳ"/>
+      <relation id="01-086-04" type="isUsedBy" direction="#01-086-01To#01-086-05" n=""/>
+      <author id="01-086-05" referred-by="name" ref="Antiphanes" n="Ἀντιφάνης"/>
+      <relation id="01-086-06" type="isQuotedIn" direction="#01-086-01To#01-086-08" n=""/>
+      <relation id="01-086-07" type="isAuthorOf" direction="#01-086-05To#01-086-08" n=""/>
+      <work id="01-086-08" referred-by="title" ref="Adonis" n="Αδώνιδι"/>
+    </entry>
+    
+    <entry id="01-087)" n="α_87">
+      <targetElement id="01-087-01" type="phrase" n="ἀπείπασθαι τὸν παῖδα"/>
+      <relation id="01-087-02" type="insteadOf_lexicology" direction="#01-087-01To#01-087-03" n="ἀντί"/>
+      <addressingElement id="01-087-03" type="lemma" introduced-by="τοῦ" n="ἀρνήσασθαι"/>
+      <relation id="01-087-04" type="isUsedBy" direction="#01-087-01To#01-087-05" n=""/>
+      <author id="01-087-05" referred-by="name" ref="Herodotos" n="Ἡρόδοτος"/>
+      <relation id="01-087-06" type="isQuotedIn" direction="#01-087-01To#01-087-08" n=""/>
+      <relation id="01-087-07" type="isAuthorOf" direction="#01-087-05To#01-087-08" n=""/>
+      <work id="01-087-08" referred-by="book-number" ref="Historiae 1" n="α´"/>
+    </entry>
+    
+    <entry id="01-088)" n="α_88">
+      <targetElement id="01-088-01" type="phrase" n="ἀναβῆναι ἐπὶ τὸν ἵππον"/>
+      <relation id="01-088-02" type="insteadOf_lexicology" direction="#01-088-01To#01-088-03" n="ἀντί"/>
+      <addressingElement id="01-088-03" type="lemma" introduced-by="τοῦ" n="ἐπιβῆναι"/>
+      <relation id="01-088-04" type="isUsedBy" direction="#01-088-01To#01-088-05" n=""/>
+      <author id="01-088-05" referred-by="name" ref="Theopompus" n="Θεόπομπος"/>
+      <relation id="01-088-06" type="isQuotedIn" direction="#01-088-01To#01-088-08" n="ἐν"/>
+      <relation id="01-088-07" type="isAuthorOf" direction="#01-088-05To#01-088-08" n=""/>
+      <work id="01-088-08" referred-by="title" ref="Epitome Herodoti" n="Ἐπιτομῇ Ἡροδότου"/>
+    </entry>
+    
+    <entry id="01-089)" n="α_89">
+      <targetElement id="01-089-01" type="lemma" n="ἀνέψυξα"/>
+      <relation id="01-089-02" type="insteadOf_lexicology" direction="#01-089-01To#01-089-03" n="ἀντί"/>
+      <addressingElement id="01-089-03" type="lemma" introduced-by="τοῦ" n="ἀνεπαυσάμην"/>
+      <relation id="01-089-04" type="isUsedBy" direction="#01-089-01To#01-089-05" n=""/>
+      <author id="01-089-05" referred-by="name" ref="Diphilus" n="Δίφιλος"/>
+      <relation id="01-089-06" type="isQuotedIn" direction="#01-089-01To#01-089-08" n=""/>
+      <relation id="01-089-07" type="isAuthorOf" direction="#01-089-05To#01-089-08" n=""/>
+      <work id="01-089-08" referred-by="title" ref="Philadelphos" n="Φιλαδέλφῳ"/>
+    </entry>
+    
+    <entry id="01-090)" n="α_90">
+      <targetElement id="01-090-01" type="lemma" n="ἀναιδίζεσθαι"/>
+      <relation id="01-090-02" type="isUsedBy" direction="#01-090-01To#01-090-03" n=""/>
+      <author id="01-090-03" referred-by="name" ref="Aristophanes" n="Ἀριστοφάνης"/>
+      <relation id="01-090-04" type="isQuotedIn" direction="#01-090-01To#01-090-06" n=""/>
+      <relation id="01-090-05" type="isAuthorOf" direction="#01-090-03To#01-090-06" n=""/>
+      <work id="01-090-06" referred-by="title" ref="Equites" n="Ἱππεῦσιν"/>
+    </entry>
+    
+    <entry id="01-091)" n="α_91">
+      <targetElement id="01-091-01" type="lemma" n="ἀκολασταίνειν"/>
+      <relation id="01-091-02" type="isUsedBy" direction="#01-091-01To#01-091-03" n=""/>
+      <author id="01-091-03" referred-by="name" ref="Plato Phil." n="Πλάτων"/>
+      <relation id="01-091-04" type="isQuotedIn" direction="#01-091-01To#01-091-06" n=""/>
+      <relation id="01-091-05" type="isAuthorOf" direction="#01-091-03To#01-091-06" n=""/>
+      <work id="01-091-06" referred-by="title-book_number" ref="Respublica 6" n="Πολιτείας στ´"/>
+    </entry>
+    
+    <entry id="01-092)" n="α_92">
+      <targetElement id="01-092-01" type="lemma" n="ἀπόστασις"/>
+      <relation id="01-092-02" type="insteadOf_lexicology" direction="#01-092-01To#01-092-03" n="ἀντί"/>
+      <addressingElement id="01-092-03" type="phrase" introduced-by="τοῦ" n="οἴνου ἀποθήκας ἔχουσα"/>
+      <relation id="01-092-04" type="isUsedBy" direction="#01-092-01To#01-092-05" n=""/>
+      <author id="01-092-05" referred-by="name" ref="Philippides" n="Φιλιππίδης"/>
+      <relation id="01-092-06" type="isQuotedIn" direction="#01-092-01To#01-092-08" n=""/>
+      <relation id="01-092-07" type="isAuthorOf" direction="#01-092-05To#01-092-08" n=""/>
+      <work id="01-092-08" referred-by="title" ref="Mastropos" n="Μαστροπῷ"/>
+    </entry>
+    
+    <entry id="01-093)" n="α_93">
+      <targetElement id="01-093-01" type="phrase" n="ἄχρι τοῦ νῦν"/>
+      <relation id="01-093-02" type="isCommentedIn" direction="#01-093-01To#01-093-03" n=""/>
+      <addressingElement id="01-093-03" type="remark_syntax" introduced-by="" n="μετὰ τοῦ ἄρθρου"/>
+      <relation id="01-093-04" type="isUsedBy" direction="#01-093-01To#01-093-05" n=""/>
+      <author id="01-093-05" referred-by="name" ref="Timostratos" n="Τιμόστρατος"/>
+      <relation id="01-093-06" type="isQuotedIn" direction="#01-093-01To#01-093-08" n=""/>
+      <relation id="01-093-07" type="isAuthorOf" direction="#01-093-05To#01-093-08" n=""/>
+      <work id="01-093-08" referred-by="title" ref="Asotos" n="Ἀσώτῳ"/>
+    </entry>
+    
+   <entry id="01-094)" n="α_94">
+     <targetElement id="01-094-01" type="lemma" n="ἀλλοτριοπράγμων"/>
+     <relation id="01-094-02" type="isParatacticallyConnectedTo" direction="#01-094-01To#01-094-03" n=""/>
+     <relation id="01-094-03" type="isInSameWordFamilyAs" direction="#01-094-01To#01-094-03" n=""/>
+     <targetElement id="01-094-04" type="lemma" n="ἀλλοτριοπραγμοσύνη"/>
+     <relation id="01-094-05" type="isUsedBy" direction="#01-094-01To#01-094-06" n=""/>
+     <author id="01-094-06" referred-by="name" ref="Platon Phil." n="Πλάτων"/>
+     <relation id="01-094-07" type="isQuotedIn" direction="#01-094-01To#01-094-10" n=""/>
+     <relation id="01-094-08" type="isQuotedIn" direction="#01-094-03To#01-094-10" n=""/>
+     <relation id="01-094-09" type="isAuthorOf" direction="#01-094-06To#01-094-10" n=""/>
+     <work id="01-094-10" referred-by="title-book_number" ref="Respublica 3" n="Πολιτείας γ´"/>
+   </entry>
+    
+    <entry id="01-095)" n="α_95">
+      <targetElement id="01-095-01" type="lemma" n="ἀγκυρίσαι"/>
+      <relation id="01-095-02" type="hasApplicationDomain" direction="#01-095-01To#01-095-03" n="ἐπί"/>
+      <addressingElement id="01-095-03" type="concept" introduced-by="τοῦ" n="παλαίσματος"/>
+      <relation id="01-095-04" type="isQuotedIn" direction="#01-095-01To#01-095-05" n=""/>
+      <addressingElement id="01-095-05" type="phrase" n="ἀγκυρίσας ἔρρηξεν"/>
+      <relation id="01-095-06" type="isUsedBy" direction="#01-095-05To#01-095-07" responsible="Hermann" n=""/>
+      <author id="01-095-07" referred-by="" ref="Eupolis" n=""/>
+      <relation id="01-095-08" type="isUsedBy" direction="#01-095-01To#01-095-09" n=""/>
+      <author id="01-095-09" referred-by="name" ref="Aristophanes" n="Ἀριστοφάνης"/>
+      <relation id="01-095-10" type="isQuotedIn" direction="#01-095-01To#01-095-12" n=""/>
+      <relation id="01-095-11" type="isAuthorOf" direction="#01-095-09To#01-095-12" n=""/>
+      <work id="01-095-12" referred-by="title" ref="Equites" n="Ἱππεῦσιν"/>
+    </entry>
+    
+    <entry id="01-096)" n="α_96">
+      <targetElement id="01-096-01" type="lemma" n="ἀνδρών"/>
+      <relation id="01-096-02" type="hasMeaning" direction="#01-096-01To#01-096-03" n="ἐπί"/>
+      <addressingElement id="01-096-03" type="phrase" introduced-by="τοῦ" n="μεγάλου οἴκου"/>
+      <relation id="01-096-04" type="isUsedBy" direction="#01-096-01To#01-096-05" n=""/>
+      <author id="01-096-05" referred-by="name" n="Ἡρόδοτος"/>
+      <relation id="01-096-06" type="isQuotedIn" direction="#01-096-01To#01-096-08" n=""/>
+      <relation id="01-096-07" type="isAuthorOf" direction="#01-096-05To#01-096-08" n=""/>
+      <work id="01-096-08" referred-by="book-number" ref="Historiae 1" n="α´"/>
+    </entry>
+    
+    <entry id="01-097)" n="α_97">
+      <targetElement id="01-097-01" type="phrase" n="ἄλλος ἄλλον παρεκάλει"/>
+      <relation id="01-097-02" type="insteadOf_syntax" direction="#01-097-01To#01-097-03" n="ἀντί"/>
+      <addressingElement id="01-097-03" type="lemma" introduced-by="τοῦ" n="ἀλλήλους"/>
+      <relation id="01-097-04" type="isUsedBy" direction="#01-097-01To#01-097-05" n=""/>
+      <author id="01-097-05" referred-by="name" ref="Araros" n="Ἀραρώς"/>
+      <relation id="01-097-06" type="isQuotedIn" direction="#01-097-01To#01-097-08" n=""/>
+      <relation id="01-097-07" type="isAuthorOf" direction="#01-097-05To#01-097-08" n=""/>
+      <work id="01-097-08" referred-by="title" ref="Adonis" n="Ἀδώνιδι"/>
+    </entry>
+    
+    <!-- 
+    <entry id="01-101" n="α_101">
+      <targetElement id="0135" type="lemma" n="αἰτεῖν"/>
+      <relation id="0136" type="hasDifferentMeaningFrom" direction="#0136To#0137" n="διαφέρει"/>
+      <targetElement id="0137" type="lemma" n="αἰτεῖσθαι"/>
+      <relation id="0138" type="isQuotedIn" direction="#0135To#0140"/>
+      <relation id="0139" type="isQuotedIn" direction="#0137To#0140"/>
+      <quotation id="0140" type="verse" n="οὐ πῦρ γὰρ αἰτῶν, οὐδὲ λοπάδα αἰτούμενος"/>
+      <relation id="0141" type="hasMeaning" responsible="3Sg=author" direction="targetElement2:addressingElement1" n="γάρ φησι"/>
+      <addressingElement id="0142" type="definition" n="αἰτεῖσθαι τὸν ἀποδίδοντα"/>
+      <relation type="hasMeaning" responsible="3Sg=author" direction="targetElement1:addressingElement2" n=""/>
+      <relation type="isParatacticallyConnectedTo" direction="addressingElement1:addressingElement2" n="δέ"/>
+      <addressingElement2 type="definition" n="τὸν μὴ ἀποδώσοντα αἰτεῖν"/>
+      <relation type="isUsedBy" direction="targetElement2:author" n=""/>
+      <author n="Ἄλεξις" ref="Alexis"/>
+      <relation type="isQuotedIn" direction="targetElement2:workReference" n=""/>
+      <work referred-by="title" n="Ἐπικλήρῳ"/>
+      <relation type="hasPassage" direction="workReference:paraphrase" n=""/>
+      <paraphrase n="ἐκδιδόντος τινὸς θυγατέρα"/>
+      <relation type="isQuotedIn" direction="targetElement2:quotation"/>
+      <quotation type="verse" n="ἀλλ᾽ ἐγὼ παῖ δίδωμι· καὶ ποήσω πᾶνθ᾽ ὅσ᾽ οὗτος αἰτεῖται παρ᾽ ἡμῶν"/>
+    </entry> -->
+  </body>
+</text>
